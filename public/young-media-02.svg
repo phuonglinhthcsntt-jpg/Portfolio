@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780">
+  <defs>
+    <linearGradient id="robotMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="45%" stopColor="#D8DEE9" />
+      <stop offset="80%" stopColor="#94A3B8" />
+      <stop offset="100%" stopColor="#475569" />
+    </linearGradient>
+    <linearGradient id="robotJoint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#475569" />
+      <stop offset="100%" stopColor="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Off-White Double Spread Background -->
+  <rect width="1200" height="780" fill="#EFEFEF" />
+
+  <!-- ==================== LEFT PAGE (x: 0 -> 600) ==================== -->
+  <!-- Top Running Header -->
+  <text x="38" y="45" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12" letterSpacing="0.5">
+    YOUNG MEDIA CLUB
+  </text>
+  <line x1="156" y1="41" x2="438" y2="41" stroke="#2E5FB7" strokeWidth="1.2" />
+  <text x="542" y="45" textAnchor="end" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12" letterSpacing="0.5">
+    SỨC TRẺ SỐ 90
+  </text>
+
+  <!-- Royal Blue Banner: VIỆT NAM -->
+  <rect x="38" y="56" width="504" height="116" fill="#2E5FB7" />
+  <text
+    x="290"
+    y="146"
+    textAnchor="middle"
+    fill="#090A0F"
+    fontFamily="Georgia, 'Times New Roman', serif"
+    fontWeight="900"
+    fontSize="94"
+    letterSpacing="3"
+  >
+    VIỆT NAM
+  </text>
+
+  <!-- Main Headline: Điểm nóng mới trong cuộc đua đầu tư AI? -->
+  <text x="38" y="232" fill="#0F1115" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="47">
+    Điểm nóng mới trong
+  </text>
+  <text x="38" y="286" fill="#0F1115" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="47">
+    cuộc đua đầu tư <tspan fill="#2E5FB7" fontWeight="800">AI</tspan>?
+  </text>
+
+  <!-- Italic Intro Paragraph -->
+  <g fill="#18181B" fontFamily="'Kanit', sans-serif" fontStyle="italic" fontSize="11.5">
+    <text x="56" y="315">Bước vào những năm đầu thập niên 2020, thế giới chứng kiến sự phát triển vượt bậc</text>
+    <text x="56" y="330">của trí tuệ nhân tạo (AI), hình thành một cuộc đua nghiên cứu, phát triển và ứng dụng</text>
+    <text x="56" y="345">công nghệ trong kinh tế trên phạm vi quốc tế. Là một đất nước đang trong “kỷ nguyên</text>
+    <text x="56" y="360">vươn mình”, Việt Nam cũng không nằm ngoài xu thế toàn cầu khi ngày càng trở nên</text>
+    <text x="56" y="375">một điểm nóng thu hút đầu tư AI quốc tế.</text>
+  </g>
+
+  <!-- Left Margin Vertical Line & Label -->
+  <line x1="38" y1="384" x2="38" y2="625" stroke="#2E5FB7" strokeWidth="1.2" />
+  <text
+    x="42"
+    y="742"
+    fill="#111111"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="800"
+    fontSize="11"
+    transform="rotate(-90, 42, 742)"
+  >
+    YOUNG MEDIA CLUB
+  </text>
+
+  <!-- Technical Wireframe Circles & 3D AI Humanoid Robot (Bottom Left) -->
+  <g transform="translate(0, 0)">
+    <!-- Wireframe Geometry -->
+    <circle cx="298" cy="560" r="176" fill="none" stroke="#2E5FB7" strokeWidth="1.2" />
+    <circle cx="295" cy="585" r="122" fill="none" stroke="#2E5FB7" strokeWidth="1.2" />
+    <line x1="298" y1="365" x2="298" y2="760" stroke="#2E5FB7" strokeWidth="1" strokeDasharray="4 4" />
+    <line x1="410" y1="670" x2="540" y2="575" stroke="#2E5FB7" strokeWidth="1.2" />
+    <line x1="468" y1="528" x2="538" y2="604" stroke="#2E5FB7" strokeWidth="1.2" />
+    <circle cx="296" cy="384" r="3.5" fill="#2E5FB7" />
+    <circle cx="180" cy="528" r="3.5" fill="#2E5FB7" />
+    <circle cx="458" cy="485" r="3.5" fill="#2E5FB7" />
+    <circle cx="518" cy="576" r="3.5" fill="#2E5FB7" />
+
+    <!-- Blue Silhouette Backdrop behind Robot -->
+    <path
+      d="M 92 780 C 86 675, 118 595, 198 565 C 188 485, 224 405, 294 405 C 352 405, 384 462, 372 532 L 348 568 C 385 605, 395 690, 385 780 Z"
+      fill="#2E5FB7"
+    />
+
+    <!-- 3D Silver & White Humanoid Robot in "Thinker" Pose -->
+    <!-- Robot Neck & Torso Mechanics -->
+    <path d="M 135 780 C 142 680, 185 612, 265 595 L 345 780 Z" fill="url(#robotJoint)" />
+    <!-- Glossy Shoulder Plate -->
+    <path
+      d="M 122 780 C 122 678, 165 602, 245 592 C 292 590, 315 645, 302 780 Z"
+      fill="url(#robotMetal)"
+      stroke="#64748B"
+      strokeWidth="1.5"
+    />
+    <!-- Robot Head -->
+    <path
+      d="M 225 478 C 225 422, 272 396, 325 408 C 368 418, 392 462, 382 518 C 374 558, 342 578, 310 572 C 272 565, 225 530, 225 478 Z"
+      fill="url(#robotMetal)"
+      stroke="#64748B"
+      strokeWidth="1.5"
+    />
+    <!-- Ear / Temple Circular Audio Sensor -->
+    <circle cx="298" cy="492" r="24" fill="#CBD5E1" stroke="#334155" strokeWidth="3" />
+    <circle cx="298" cy="492" r="10" fill="#1E293B" />
+    <!-- Robot Eye & Brow Line -->
+    <path d="M 338 468 L 382 476" stroke="#1E293B" strokeWidth="4" strokeLinecap="round" />
+    <circle cx="358" cy="482" r="5" fill="#0EA5E9" />
+    <!-- Robot Articulated Hand & Forearm (Thinking Pose) -->
+    <path d="M 342 780 L 392 645 L 424 655 L 386 780 Z" fill="url(#robotMetal)" stroke="#475569" strokeWidth="1.5" />
+    <!-- Mechanical Fingers under Chin -->
+    <g transform="translate(375, 558)">
+      <rect x="0" y="20" width="52" height="58" rx="14" fill="url(#robotMetal)" stroke="#475569" strokeWidth="1.5" />
+      <rect x="-12" y="8" width="18" height="32" rx="7" fill="url(#robotJoint)" />
+      <rect x="8" y="-4" width="16" height="36" rx="7" fill="url(#robotMetal)" stroke="#475569" strokeWidth="1.2" />
+      <rect x="24" y="0" width="16" height="34" rx="7" fill="url(#robotMetal)" stroke="#475569" strokeWidth="1.2" />
+      <rect x="40" y="8" width="15" height="30" rx="7" fill="url(#robotMetal)" stroke="#475569" strokeWidth="1.2" />
+    </g>
+  </g>
+
+  <!-- Page 20 Footer Badge -->
+  <rect x="0" y="748" width="58" height="24" rx="10" fill="#111111" />
+  <text x="29" y="764" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="11">
+    Sức trẻ  20
+  </text>
+
+  <!-- ==================== RIGHT PAGE (x: 600 -> 1200) ==================== -->
+  <line x1="660" y1="41" x2="836" y2="41" stroke="#2E5FB7" strokeWidth="1.2" />
+
+  <!-- Top-Right Quote Headline -->
+  <text x="860" y="76" fill="#2E5FB7" fontFamily="Georgia, serif" fontWeight="900" fontSize="64">“</text>
+  <text x="906" y="65" fill="#0F1115" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="34">
+    Mảnh đất vàng
+  </text>
+  <text x="758" y="102" fill="#0F1115" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="34">
+    cho đầu tư <tspan fill="#2E5FB7" fontWeight="800">AI</tspan> năm <tspan fill="#2E5FB7" fontWeight="800">2025</tspan>
+  </text>
+
+  <!-- Blue-Framed Photo: Nvidia & Vietnamese Delegation at NIC -->
+  <g transform="translate(695, 122)">
+    <rect x="0" y="0" width="428" height="292" fill="#2E5FB7" />
+    <!-- Photo Interior -->
+    <rect x="6" y="6" width="416" height="262" fill="#DCE4F2" />
+    <!-- Modern NIC Conference Hall Backdrop -->
+    <rect x="6" y="6" width="416" height="128" fill="#8FA6CB" />
+    <line x1="85" y1="6" x2="85" y2="134" stroke="#B8C7E0" strokeWidth="4" />
+    <line x1="210" y1="6" x2="210" y2="134" stroke="#B8C7E0" strokeWidth="4" />
+    <line x1="335" y1="6" x2="335" y2="134" stroke="#B8C7E0" strokeWidth="4" />
+
+    <!-- 7 Delegates Standing Together (Jensen Huang in Center Black Leather Jacket) -->
+    <!-- Person 1 (Left, dark suit) -->
+    <rect x="18" y="138" width="54" height="130" rx="10" fill="#1E293B" />
+    <circle cx="45" cy="112" r="18" fill="#F1C6A7" />
+    <!-- Person 2 -->
+    <rect x="74" y="146" width="52" height="122" rx="10" fill="#0F172A" />
+    <circle cx="100" cy="120" r="17" fill="#EAB896" />
+    <!-- Person 3 -->
+    <rect x="128" y="140" width="54" height="128" rx="10" fill="#334155" />
+    <circle cx="155" cy="114" r="17" fill="#F1C6A7" />
+    <!-- Person 4 (Center — Jensen Huang in black leather jacket & glasses) -->
+    <rect x="182" y="132" width="64" height="136" rx="12" fill="#111827" />
+    <circle cx="214" cy="104" r="19" fill="#F3CBB0" />
+    <rect x="201" y="99" width="26" height="7" rx="2" fill="none" stroke="#111827" strokeWidth="2" />
+    <!-- Person 5 -->
+    <rect x="248" y="138" width="56" height="130" rx="10" fill="#1E293B" />
+    <circle cx="276" cy="112" r="18" fill="#EAB896" />
+    <!-- Person 6 -->
+    <rect x="306" y="144" width="54" height="124" rx="10" fill="#0F172A" />
+    <circle cx="333" cy="118" r="17" fill="#F1C6A7" />
+    <!-- Person 7 (Right) -->
+    <rect x="362" y="136" width="54" height="132" rx="10" fill="#1E3A8A" />
+    <circle cx="389" cy="110" r="18" fill="#EAB896" />
+
+    <!-- Handheld Signs: #ICDesign and #Welcometo Vietnam -->
+    <g transform="translate(14, 162) rotate(5)">
+      <rect x="0" y="0" width="76" height="22" rx="3" fill="#FFFFFF" stroke="#E11D48" strokeWidth="1.5" />
+      <text x="38" y="15" textAnchor="middle" fill="#E11D48" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="11">
+        #ICDesign
+      </text>
+    </g>
+    <g transform="translate(178, 155) rotate(6)">
+      <rect x="0" y="0" width="88" height="28" rx="3" fill="#FFFFFF" stroke="#DC2626" strokeWidth="1.5" />
+      <rect x="60" y="0" width="28" height="28" fill="#DC2626" />
+      <polygon points="74,8 76,14 82,14 77,17 79,23 74,19 69,23 71,17 66,14 72,14" fill="#FACC15" />
+      <text x="30" y="11" textAnchor="middle" fill="#111827" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="7.5">
+        #Welcometo
+      </text>
+      <text x="30" y="23" textAnchor="middle" fill="#DC2626" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="11">
+        Vietnam
+      </text>
+    </g>
+
+    <!-- Photo Caption in Blue Footer Bar -->
+    <text x="214" y="283" textAnchor="middle" fill="#E2E8F0" fontFamily="'Kanit', sans-serif" fontSize="7.8">
+      Tập đoàn Nvidia chụp hình cùng đại diện các bộ ngành, địa phương và doanh nghiệp Việt Nam trong chuyến thăm NIC
+    </text>
+  </g>
+
+  <!-- Middle Paragraph with Blue Script Drop-Cap V -->
+  <text x="694" y="446" fill="#2E5FB7" fontFamily="Georgia, serif" fontStyle="italic" fontWeight="700" fontSize="28">
+    V
+  </text>
+  <g fill="#27272A" fontFamily="'Kanit', sans-serif" fontSize="8.8">
+    <text x="720" y="446">ốn dĩ, Việt Nam không phải cái tên xa lạ trên bản đồ công nghệ thế giới. Từ tháng 8 năm</text>
+    <text x="695" y="458">2024, Google đã xem xét việc xây dựng một trung tâm dữ liệu lớn gần Thành phố Hồ Chí Minh.</text>
+    <text x="695" y="470">Tháng 9 năm 2024, Supermicro đã ký biên bản ghi nhớ với tập đoàn Sovico của Việt Nam, hợp</text>
+    <text x="695" y="482">tác phát triển AI và trung tâm dữ liệu, nhằm tăng cường hạ tầng và ứng dụng AI tại Việt Nam. Đặc</text>
+    <text x="695" y="494">biệt, đầu tháng 12/2024, “gã khổng lồ” sản xuất chip của Hoa Kỳ Nvidia đã ký thỏa thuận, thành</text>
+    <text x="695" y="506">lập một trung tâm nghiên cứu và phát triển AI tại Việt Nam, đánh dấu cột mốc đầu tiên đất nước</text>
+    <text x="695" y="518">ta nhận được nguồn đầu tư AI từ một quốc gia lớn. Cú bắt tay lịch sử này đã thúc đẩy sự phát triển</text>
+    <text x="695" y="530">vượt bậc của công nghệ AI tại Việt Nam, chứng tỏ đất nước ta là một điểm đến hấp dẫn đối với</text>
+    <text x="695" y="542">rất nhiều ông lớn công nghệ. Vậy tại sao đất nước ta lại được <tspan fill="#2E5FB7" textDecoration="underline">“chọn mặt gửi vàng”</tspan> như vậy?</text>
+  </g>
+
+  <!-- Two-Column Bottom Text: ĐẦU TIÊN & HƠN NỮA -->
+  <!-- Column 1 -->
+  <g fill="#27272A" fontFamily="'Kanit', sans-serif" fontSize="8.6">
+    <text x="695" y="574">
+      <tspan fill="#2E5FB7" fontWeight="800" fontSize="11">ĐẦU TIÊN,</tspan> tình hình chính trị ổn định và
+    </text>
+    <text x="695" y="586">nguồn hỗ trợ lớn từ Chính phủ là một mắt xích</text>
+    <text x="695" y="598">quan trọng thu hút các nhà đầu tư công nghệ.</text>
+    <text x="695" y="610">Việt Nam là một trong những quốc gia có</text>
+    <text x="695" y="622">mức ổn định kinh tế chính trị cao nhất Đông</text>
+    <text x="695" y="634">Nam Á, không xảy ra xung đột vũ trang hay</text>
+    <text x="695" y="646">bất ổn xã hội nghiêm trọng. Từ đó, mang lại</text>
+    <text x="695" y="658">một môi trường đầu tư an toàn và bền vững</text>
+    <text x="695" y="670">cho các doanh nghiệp công nghệ. Không</text>
+    <text x="695" y="682">những vậy, Chính phủ Việt Nam đang tích cực</text>
+    <text x="695" y="694">thu hút đầu tư FDI thông qua các chính sách</text>
+    <text x="695" y="706">ưu đãi, đồng thời xây dựng và hoàn thiện</text>
+    <text x="695" y="718">hành lang pháp lý cho AI nhằm tạo môi</text>
+    <text x="695" y="730">trường thuận lợi cho các nhà đầu tư.</text>
+  </g>
+
+  <!-- Column 2 -->
+  <g fill="#27272A" fontFamily="'Kanit', sans-serif" fontSize="8.6">
+    <text x="906" y="574">
+      <tspan fill="#2E5FB7" fontWeight="800" fontSize="11">HƠN NỮA,</tspan> một ưu thế khác cho Việt Nam nằm ở
+    </text>
+    <text x="906" y="586">vị trí khu vực Đông Nam Á, nơi có hoạt động kinh</text>
+    <text x="906" y="598">tế diễn ra sôi nổi, lại nằm trên ngã tư đường hàng</text>
+    <text x="906" y="610">hải, hàng không quốc tế, với các tuyến đường bộ,</text>
+    <text x="906" y="622">đường sắt xuyên Á nối liền các thị trường lớn nhất</text>
+    <text x="906" y="634">toàn cầu như Trung Quốc, Ấn Độ, châu Âu. Điều</text>
+    <text x="906" y="646">này giúp các doanh nghiệp khi đầu tư vào Việt</text>
+    <text x="906" y="658">Nam sẽ dễ dàng kết nối với các thị trường tiềm</text>
+    <text x="906" y="670">năng. Không chỉ vậy, nguồn nhân lực trẻ dồi dào,</text>
+    <text x="906" y="682">nhiều tiềm năng đem lại một lợi thế lớn cho nước</text>
+    <text x="906" y="694">ta. Nhân lực Việt Nam hiện nay đang được đào</text>
+    <text x="906" y="706">tạo theo mô hình STEM, phương pháp giáo dục</text>
+    <text x="906" y="718">đóng một vai trò then chốt cho sự tăng trưởng</text>
+    <text x="906" y="730">bền vững và ổn định của nền kinh tế Mỹ.</text>
+  </g>
+
+  <!-- Right Margin Vertical Line & Label -->
+  <line x1="1162" y1="438" x2="1162" y2="625" stroke="#2E5FB7" strokeWidth="1.2" />
+  <text
+    x="1158"
+    y="642"
+    fill="#111111"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="800"
+    fontSize="11"
+    transform="rotate(90, 1158, 642)"
+  >
+    YOUNG MEDIA CLUB
+  </text>
+
+  <!-- Page 21 Footer Badge -->
+  <rect x="1142" y="748" width="58" height="24" rx="10" fill="#111111" />
+  <text x="1171" y="764" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="11">
+    21  Sức trẻ
+  </text>
+
+  <!-- Center Spine Shadow -->
+  <line x1="600" y1="0" x2="600" y2="780" stroke="#000000" strokeOpacity="0.12" strokeWidth="2" />
+</svg>

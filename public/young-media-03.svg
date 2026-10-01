@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780">
+  <!-- Deep Pitch-Black Double Spread Background -->
+  <rect width="1200" height="780" fill="#060609" />
+
+  <!-- ==================== LEFT PAGE (x: 0 -> 600) ==================== -->
+  <!-- Top Royal Blue Header Block -->
+  <rect x="0" y="0" width="602" height="214" fill="#3B5BA9" />
+  <g fill="#FFFFFF" fontFamily="Georgia, 'Times New Roman', serif" textAnchor="middle">
+    <text x="295" y="82" fontSize="45" fontWeight="700">
+      Sinh viên Ngoại thương
+    </text>
+    <text x="295" y="130" fontSize="44" fontWeight="700">
+      và câu chuyện khởi nghiệp
+    </text>
+    <text x="295" y="178" fontSize="45" fontWeight="700">
+      từ <tspan fontStyle="italic" fontWeight="400">giảng đường</tspan>
+    </text>
+  </g>
+
+  <!-- Subtle Dark Blue Asterisk Watermark behind Intro -->
+  <g transform="translate(88, 285)" stroke="#17254E" strokeWidth="22" strokeLinecap="round">
+    <line x1="-35" y1="0" x2="35" y2="0" />
+    <line x1="-18" y1="-30" x2="18" y2="30" />
+    <line x1="18" y1="-30" x2="-18" y2="30" />
+  </g>
+
+  <!-- White Italic Intro Text -->
+  <g fill="#F1F5F9" fontFamily="'Kanit', sans-serif" fontStyle="italic" fontSize="11.2">
+    <text x="64" y="244">Ngoại thương không chỉ là nơi bồi đắp tri thức, mà còn là cái nôi ươm mầm khát vọng</text>
+    <text x="64" y="260">khởi nghiệp, là bệ phóng cho những ý tưởng táo bạo tạo nên những thay đổi đột phá</text>
+    <text x="64" y="276">cho cộng đồng. Bằng sự năng động, sáng tạo và tinh thần dám nghĩ dám làm, sinh</text>
+    <text x="64" y="292">viên Ngoại thương đã hiện thực hóa giấc mơ khởi nghiệp ngay từ khi còn trên ghế</text>
+    <text x="64" y="308">giảng đường. Họ là ai? Họ đã làm như thế nào? Hãy cùng lắng nghe những chia sẻ về</text>
+    <text x="64" y="324">hành trình khởi nghiệp đầy cảm hứng của những sinh viên Ngoại thương tài năng.</text>
+  </g>
+
+  <!-- ===== LEFT PORTRAIT CARD: TRẦN QUANG ANH ===== -->
+  <g transform="translate(45, 362)">
+    <rect x="0" y="0" width="240" height="232" rx="18" fill="#3B5BA9" />
+    <!-- Portrait Illustration of Trần Quang Anh (Navy Blazer, Headphones, Camcorder) -->
+    <path d="M 55 232 C 58 148, 195 148, 202 232 Z" fill="#172033" />
+    <!-- White Dress Shirt & Blue Tie -->
+    <polygon points="112,146 146,146 134,232 120,232" fill="#F8FAFC" />
+    <polygon points="126,154 134,154 132,222 124,222" fill="#2563EB" />
+    <!-- Head & Hair -->
+    <circle cx="130" cy="82" r="34" fill="#F3CBB0" />
+    <path d="M 94 76 C 96 36, 164 36, 166 78 C 152 58, 112 58, 94 76 Z" fill="#18181B" />
+    <!-- White Headphones around Neck -->
+    <ellipse cx="112" cy="134" rx="11" ry="14" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="2" />
+    <ellipse cx="148" cy="134" rx="11" ry="14" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="2" />
+    <!-- Handheld Vintage Camcorder on Right Shoulder -->
+    <g transform="translate(72, 92) rotate(-15)">
+      <rect x="0" y="0" width="46" height="28" rx="4" fill="#CBD5E1" stroke="#334155" strokeWidth="2" />
+      <circle cx="0" cy="14" r="9" fill="#1E293B" stroke="#94A3B8" strokeWidth="2" />
+    </g>
+
+    <!-- Name Overlay -->
+    <g fill="#FFFFFF" fontFamily="Georgia, serif" fontSize="33">
+      <text x="12" y="152">Trần</text>
+      <text x="12" y="186">Quang</text>
+      <text x="12" y="220">Anh</text>
+    </g>
+
+    <!-- Outlined Bio Box Below -->
+    <rect x="0" y="240" width="240" height="126" rx="16" fill="none" stroke="#3B5BA9" strokeWidth="1.4" />
+    <g fill="#E2E8F0" fontFamily="'Kanit', sans-serif" fontSize="9.2">
+      <text x="14" y="260">- Sinh viên K57 - Kinh tế đối ngoại -</text>
+      <text x="14" y="274">Trường Đại học Ngoại thương</text>
+      <text x="14" y="288">- Thạc sĩ Quản lý kinh tế - Trường Đại học</text>
+      <text x="14" y="302">Ngoại thương</text>
+      <text x="14" y="316">- Quý quân Khởi nghiệp cùng Kawai 2024</text>
+      <text x="14" y="330">- Founder hệ sinh thái MentorA+</text>
+      <text x="14" y="344">- Thủ khoa Kinh tế đối ngoại K57 FTU,</text>
+      <text x="14" y="357">Sinh viên tiêu biểu K57 FTU</text>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT PORTRAIT CARD: NGÔ HOÀNG MINH ===== -->
+  <g transform="translate(308, 362)">
+    <rect x="0" y="0" width="240" height="232" rx="18" fill="#3B5BA9" />
+    <!-- Portrait Illustration of Ngô Hoàng Minh (Glasses, Black Crew-neck Shirt) -->
+    <path d="M 32 232 C 38 142, 188 142, 194 232 Z" fill="#111318" />
+    <!-- Neck & Head -->
+    <rect x="98" y="108" width="32" height="36" fill="#F1C6A7" />
+    <circle cx="114" cy="76" r="35" fill="#F3CBB0" />
+    <path d="M 78 68 C 80 28, 148 28, 150 68 C 136 50, 92 50, 78 68 Z" fill="#1E1B18" />
+    <!-- Glasses -->
+    <rect x="90" y="66" width="20" height="13" rx="3" fill="none" stroke="#1E293B" strokeWidth="2.2" />
+    <rect x="116" y="66" width="20" height="13" rx="3" fill="none" stroke="#1E293B" strokeWidth="2.2" />
+    <line x1="110" y1="72" x2="116" y2="72" stroke="#1E293B" strokeWidth="2" />
+
+    <!-- Name Overlay -->
+    <g fill="#FFFFFF" fontFamily="Georgia, serif" fontSize="33" textAnchor="end">
+      <text x="225" y="152">Ngô</text>
+      <text x="225" y="186">Hoàng</text>
+      <text x="225" y="220">Minh</text>
+    </g>
+
+    <!-- Outlined Bio Box Below -->
+    <rect x="0" y="240" width="240" height="126" rx="16" fill="none" stroke="#3B5BA9" strokeWidth="1.4" />
+    <g fill="#E2E8F0" fontFamily="'Kanit', sans-serif" fontSize="9.2">
+      <text x="14" y="262">- Sinh viên K60 - Chất lượng cao Kinh tế</text>
+      <text x="14" y="276">đối ngoại - Trường Đại học Ngoại thương</text>
+      <text x="14" y="292">- Á quân Khởi nghiệp cùng Kawai 2024</text>
+      <text x="14" y="308">- Co-founder dự án boardgame “Mấy giờ</text>
+      <text x="14" y="322">tới nay?”</text>
+      <text x="14" y="338">- Phó chủ tịch nhiệm kỳ XVI CLB Chứng</text>
+      <text x="14" y="352">khoán FTU - SIC</text>
+    </g>
+  </g>
+
+  <!-- Bottom Left Running Footer -->
+  <text x="45" y="758" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12">
+    YOUNG MEDIA CLUB
+  </text>
+  <line x1="168" y1="754" x2="548" y2="754" stroke="#3B5BA9" strokeWidth="1.2" />
+  <rect x="0" y="748" width="58" height="24" rx="10" fill="#111111" />
+  <text x="29" y="764" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="11">
+    Sức trẻ  26
+  </text>
+
+  <!-- ==================== RIGHT PAGE (x: 600 -> 1200) ==================== -->
+  <!-- Top Running Header -->
+  <line x1="664" y1="41" x2="1068" y2="41" stroke="#3B5BA9" strokeWidth="1.2" />
+  <text x="1158" y="45" textAnchor="end" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12">
+    SỨC TRẺ SỐ 90
+  </text>
+
+  <!-- Top Pull Quote -->
+  <text x="690" y="115" fill="#3B5BA9" fontFamily="Georgia, serif" fontWeight="900" fontSize="74" opacity="0.9">“</text>
+  <g fontFamily="Georgia, serif" fontStyle="italic" fontWeight="700" fontSize="22">
+    <text x="760" y="96" fill="#FFFFFF">Nếu chưa biết bắt đầu từ đâu</text>
+    <text x="760" y="122" fill="#FFFFFF">
+      thì hãy chọn cái <tspan fill="#3B5BA9">mình thích...</tspan>
+    </text>
+  </g>
+  <text x="1075" y="148" fill="#3B5BA9" fontFamily="Georgia, serif" fontWeight="900" fontSize="74" opacity="0.9">”</text>
+
+  <!-- Top-Left Kawai Stage Photo (Hoàng Minh — Á Quân Kawai 2024) -->
+  <g transform="translate(672, 166)">
+    <rect x="0" y="0" width="234" height="162" fill="#0D1B3E" stroke="#3B5BA9" strokeWidth="1.5" />
+    <!-- Stage Spotlights -->
+    <circle cx="48" cy="24" r="18" fill="#60A5FA" opacity="0.35" />
+    <circle cx="186" cy="24" r="18" fill="#60A5FA" opacity="0.35" />
+    <text x="117" y="34" textAnchor="middle" fill="#93C5FD" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="8">
+      KHỞI NGHIỆP CÙNG
+    </text>
+    <text x="117" y="48" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="14" letterSpacing="2">
+      KAWAI
+    </text>
+    <!-- Winners on Stage Holding Award Check -->
+    <rect x="62" y="76" width="110" height="86" fill="#1E293B" />
+    <circle cx="82" cy="66" r="9" fill="#F3CBB0" />
+    <circle cx="106" cy="64" r="9" fill="#F3CBB0" />
+    <circle cx="130" cy="65" r="9" fill="#F3CBB0" />
+    <circle cx="152" cy="67" r="9" fill="#F3CBB0" />
+    <rect x="92" y="90" width="56" height="28" fill="#E0F2FE" stroke="#38BDF8" strokeWidth="1.5" />
+    <!-- Caption below photo -->
+    <text x="117" y="174" textAnchor="middle" fill="#94A3B8" fontFamily="'Kanit', sans-serif" fontSize="7.8">
+      Anh Hoàng Minh giành giải Á Quân trong
+    </text>
+    <text x="117" y="184" textAnchor="middle" fill="#94A3B8" fontFamily="'Kanit', sans-serif" fontSize="7.8">
+      cuộc thi Khởi nghiệp cùng Kawai 2024
+    </text>
+  </g>
+
+  <!-- Upper-Right Interview Column -->
+  <g fill="#E2E8F0" fontFamily="'Kanit', sans-serif" fontSize="8.3">
+    <text x="918" y="172">Gặt hái được nhiều thành tựu từ những cuộc thi lớn nhỏ</text>
+    <text x="918" y="183">tới bước ra thực tiễn, ít ai biết được rằng cảm hứng</text>
+    <text x="918" y="194">khởi nguồn cho những dự án lớn lao ấy đều bắt đầu từ</text>
+    <text x="918" y="205">những điều gần gũi nhất. Với Hoàng Minh, ý tưởng khởi</text>
+    <text x="918" y="216">nghiệp nảy lên từ những lần tụ tập chuyện trò cùng bạn</text>
+    <text x="918" y="227">bè cùng quá trình nghiên cứu thị trường kỹ lưỡng:</text>
+    <text x="918" y="238" fontStyle="italic">“Chúng mình cảm thấy các sản phẩm cùng lĩnh vực trên</text>
+    <text x="918" y="249" fontStyle="italic">thị trường vào thời điểm ấy vẫn còn chỗ để chúng mình</text>
+    <text x="918" y="260" fontStyle="italic">làm ra được cái tốt hơn.” Từ đó, “Mấy giờ tới nay?” đã</text>
+    <text x="918" y="271">ra đời với sứ mệnh giúp mọi người kết nối và tận hưởng</text>
+    <text x="918" y="282">những khoảnh khắc trọn vẹn bên nhau. Trong khi đó,</text>
+    <text x="918" y="293">những lần mất phương hướng và hoang mang về việc</text>
+    <text x="918" y="304">học tập trong quá khứ đã khiến Quang Anh đặt kỳ vọng</text>
+    <text x="918" y="315">vào lĩnh vực giáo dục với mong muốn tạo ra “một hệ</text>
+    <text x="918" y="326">thống hỗ trợ tốt hơn, một người mentor phù hợp để các</text>
+    <text x="918" y="337">bạn trẻ sẽ có thể đi thật nhanh, thật xa và tận dụng tối</text>
+    <text x="918" y="348">đa những cơ hội xung quanh họ.”</text>
+  </g>
+
+  <!-- Lower-Left Interview Column with Drop-Cap N -->
+  <text x="668" y="378" fill="#3B5BA9" fontFamily="Georgia, serif" fontWeight="700" fontSize="24">
+    N
+  </text>
+  <g fill="#E2E8F0" fontFamily="'Kanit', sans-serif" fontSize="8.3">
+    <text x="688" y="378">gay từ rất sớm, Hoàng Minh, đồng sáng lập dự án</text>
+    <text x="668" y="389">“Mấy giờ tới nay?” đã suy nghĩ rằng: “Nếu chỉ theo</text>
+    <text x="668" y="400">đuổi công việc văn phòng, làm công ăn lương sẽ không</text>
+    <text x="668" y="411">thể đạt được những điều mình muốn.” Chứng kiến</text>
+    <text x="668" y="422">những người xung quanh gắn bó với công việc văn</text>
+    <text x="668" y="433">phòng, anh khao khát một sự đột phá, một hướng đi</text>
+    <text x="668" y="444">mới táo bạo hơn. Với anh, khởi nghiệp không chỉ là lựa</text>
+    <text x="668" y="455">chọn mà là đam mê anh luôn muốn theo đuổi. Còn đối</text>
+    <text x="668" y="466">với Quang Anh, founder hệ sinh thái MentorA+, ban</text>
+    <text x="668" y="477">đầu anh nghĩ rằng khởi nghiệp chỉ cần ý tưởng hay và</text>
+    <text x="668" y="488">đam mê là đủ để tạo nên những điều lớn lao. Tuy</text>
+    <text x="668" y="499">nhiên, sau nhiều trải nghiệm thực tế, Quang Anh nhận</text>
+    <text x="668" y="510">ra rằng: “Khởi nghiệp không đơn giản như nhiều câu</text>
+    <text x="668" y="521">chuyện truyền cảm hứng mà là bài toán đầy thực tế về</text>
+    <text x="668" y="532">chiến lược, nguồn lực và sự bền bỉ, không chỉ là cú bật</text>
+    <text x="668" y="543">mạnh mẽ mà là cả một hành trình dài với vô số lần thử</text>
+    <text x="668" y="554">và sai, điều chỉnh và học hỏi.”</text>
+  </g>
+
+  <!-- Lower-Right Kawai Stage Photo (Quang Anh — Quý Quân Kawai 2024) -->
+  <g transform="translate(918, 396)">
+    <rect x="0" y="0" width="240" height="176" fill="#102347" stroke="#3B5BA9" strokeWidth="1.5" />
+    <rect x="12" y="10" width="216" height="90" fill="#1D4ED8" opacity="0.45" />
+    <text x="120" y="56" textAnchor="middle" fill="#93C5FD" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="22" letterSpacing="3">
+      KAWAI
+    </text>
+    <!-- Quang Anh Holding Bouquet & Award on Stage -->
+    <path d="M 85 176 C 88 118, 152 118, 155 176 Z" fill="#F1F5F9" />
+    <circle cx="120" cy="88" r="18" fill="#F3CBB0" />
+    <path d="M 102 82 C 104 64, 136 64, 138 82 Z" fill="#18181B" />
+    <circle cx="106" cy="134" r="16" fill="#FDE047" />
+    <rect x="120" y="124" width="26" height="32" fill="#38BDF8" stroke="#FFFFFF" strokeWidth="1.5" />
+    <!-- Caption below photo -->
+    <text x="120" y="188" textAnchor="middle" fill="#94A3B8" fontFamily="'Kanit', sans-serif" fontSize="7.8">
+      Anh Quang Anh giành giải Quý Quân trong
+    </text>
+    <text x="120" y="198" textAnchor="middle" fill="#94A3B8" fontFamily="'Kanit', sans-serif" fontSize="7.8">
+      cuộc thi Khởi nghiệp cùng Kawai 2024
+    </text>
+  </g>
+
+  <!-- Bottom-Right Bold Blue Display Title: >>> BA LÔ TRẢI NGHIỆM -->
+  <g fill="#3B5BA9" fontFamily="'Kanit', sans-serif" fontStyle="italic" fontWeight="900">
+    <text x="836" y="662" fontSize="42" letterSpacing="2">
+      &gt;&gt;&gt;
+    </text>
+    <text x="1152" y="664" textAnchor="end" fontSize="54" letterSpacing="2">
+      BA LÔ
+    </text>
+    <text x="1152" y="718" textAnchor="end" fontSize="54" letterSpacing="2">
+      TRẢI NGHIỆM
+    </text>
+  </g>
+
+  <!-- Bottom Right Running Footer -->
+  <line x1="664" y1="754" x2="1032" y2="754" stroke="#3B5BA9" strokeWidth="1.2" />
+  <text x="1158" y="758" textAnchor="end" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12">
+    YOUNG MEDIA CLUB
+  </text>
+  <rect x="1142" y="748" width="58" height="24" rx="10" fill="#111111" />
+  <text x="1171" y="764" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="11">
+    27  Sức trẻ
+  </text>
+</svg>

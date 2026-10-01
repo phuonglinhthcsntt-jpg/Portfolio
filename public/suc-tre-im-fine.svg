@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="terracottaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C84B31" />
+      <stop offset="55%" stopColor="#B33620" />
+      <stop offset="100%" stopColor="#8E2312" />
+    </linearGradient>
+    <linearGradient id="insetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#5C2014" />
+      <stop offset="35%" stopColor="#9E2F1B" />
+      <stop offset="100%" stopColor="#7D2010" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" floodColor="#2A0800" floodOpacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Cream Editorial Background -->
+  <rect width="1200" height="750" fill="#F7F0DB" />
+
+  <!-- Top Left Cloud -->
+  <path
+    d="M -15 168 C 10 165, 30 150, 48 158 C 72 170, 118 172, 152 156 C 185 142, 188 104, 154 92 C 162 65, 132 52, 106 72 C 94 35, 34 32, 15 68 C -8 62, -25 85, -18 115 Z"
+    fill="#FFFDF8"
+    stroke="#E11D48"
+    strokeWidth="7.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  <!-- Upper Left-Center Small Cloud -->
+  <path
+    d="M 255 82 C 244 74, 250 54, 268 54 C 272 34, 302 28, 316 48 C 330 38, 348 48, 344 65 C 366 66, 370 92, 348 96 C 320 98, 280 96, 255 82 Z"
+    fill="#FFFDF8"
+    stroke="#E11D48"
+    strokeWidth="5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  <!-- Upper Right-Center Small Cloud -->
+  <path
+    d="M 845 132 C 836 126, 842 110, 855 110 C 860 94, 882 90, 892 106 C 904 98, 916 106, 913 118 C 928 120, 930 138, 912 141 C 890 142, 864 140, 845 132 Z"
+    fill="#FFFDF8"
+    stroke="#E11D48"
+    strokeWidth="3.8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  <!-- Top Right Large Cloud -->
+  <path
+    d="M 1018 138 C 996 122, 1005 80, 1038 78 C 1046 46, 1088 46, 1104 72 C 1122 14, 1192 12, 1208 66 C 1230 62, 1245 95, 1225 128 C 1205 152, 1162 152, 1132 140 C 1095 152, 1045 150, 1018 138 Z"
+    fill="#FFFDF8"
+    stroke="#E11D48"
+    strokeWidth="8"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  <!-- Red Hand-Drawn Asterisks Flanking Badge -->
+  <g stroke="#BC2426" strokeWidth="4.5" strokeLinecap="round">
+    <line x1="428" y1="80" x2="428" y2="112" />
+    <line x1="413" y1="90" x2="443" y2="102" />
+    <line x1="415" y1="106" x2="441" y2="86" />
+
+    <line x1="763" y1="82" x2="763" y2="108" />
+    <line x1="751" y1="89" x2="775" y2="101" />
+    <line x1="752" y1="103" x2="774" y2="87" />
+  </g>
+
+  <!-- Center Top "IM FINE" Red Patch Badge -->
+  <g transform="translate(478, 66)">
+    <rect
+      x="0"
+      y="0"
+      width="244"
+      height="126"
+      rx="52"
+      fill="#BC2025"
+    />
+    <rect
+      x="12"
+      y="11"
+      width="220"
+      height="104"
+      rx="42"
+      fill="none"
+      stroke="#F7F0DB"
+      strokeWidth="4.5"
+    />
+    <rect
+      x="56"
+      y="27"
+      width="132"
+      height="72"
+      rx="12"
+      fill="none"
+      stroke="#F7F0DB"
+      strokeWidth="4"
+    />
+    <!-- Side Dots -->
+    <circle cx="38" cy="46" r="4.5" fill="#F7F0DB" />
+    <circle cx="27" cy="64" r="4.5" fill="#F7F0DB" />
+    <circle cx="39" cy="82" r="4.5" fill="#F7F0DB" />
+    <circle cx="204" cy="46" r="4.5" fill="#F7F0DB" />
+    <circle cx="215" cy="64" r="4.5" fill="#F7F0DB" />
+    <circle cx="203" cy="82" r="4.5" fill="#F7F0DB" />
+    <text
+      x="122"
+      y="76"
+      textAnchor="middle"
+      fill="#F7F0DB"
+      fontFamily="'Kanit', sans-serif"
+      fontWeight="700"
+      fontSize="34"
+      letterSpacing="2"
+    >
+      IM FINE
+    </text>
+  </g>
+
+  <!-- Main Headline: KHI NGƯỜI TRẺ "MẶC" CẢM XÚC -->
+  <text
+    x="608"
+    y="278"
+    textAnchor="middle"
+    fill="#181512"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="600"
+    fontSize="62"
+    letterSpacing="3.5"
+  >
+    KHI NGƯỜI TRẺ “MẶC” CẢM XÚC
+  </text>
+
+  <!-- Subheading: TỪ VỎ BỌC CẢM XÚC... -->
+  <text
+    x="102"
+    y="380"
+    fill="#BC2426"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="500"
+    fontSize="36"
+    letterSpacing="1.5"
+  >
+    TỪ VỎ BỌC CẢM XÚC...
+  </text>
+
+  <!-- Left Editorial Paragraph -->
+  <g
+    fill="#2A2826"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="300"
+    fontSize="19.5"
+  >
+    <text x="102" y="442">Sinh viên Ngoại thương vẫn luôn bị cộp mác hình tượng</text>
+    <text x="102" y="467">“con nhà người ta” hoàn hảo: thành tích nổi bật, sự</text>
+    <text x="102" y="492">nghiệp hứa hẹn, tính cách đầy năng động, nhiệt huyết.</text>
+    <text x="102" y="517">Nhưng đằng sau ánh hào quang ấy, không ít bạn trẻ</text>
+    <text x="102" y="542">phải đối diện với áp lực cạnh tranh và kỳ vọng “luôn</text>
+    <text x="102" y="567">phải giỏi hơn, luôn phải tỏa sáng”. Khi sự mệt mỏi, nỗi</text>
+    <text x="102" y="592">buồn hay những phút chênh vênh trở nên khó được</text>
+    <text x="102" y="617">thừa nhận, nhiều người chọn cách giấu nhẹm cảm xúc,</text>
+    <text x="102" y="642">biến “I’m fine” (tôi ổn) thành câu trả lời mặc định. Câu</text>
+    <text x="102" y="667">trả lời lịch sự, an toàn ấy, dần dà lại khiến ta quên mất</text>
+    <text x="102" y="692">cách thành thật với chính mình và kết nối thật sự với</text>
+    <text x="102" y="717">người khác.</text>
+  </g>
+
+  <!-- Right Main Photo Panel (Skateboard & 3 Beanie Caps on Terracotta Backdrop) -->
+  <g transform="translate(726, 336)">
+    <rect width="474" height="344" fill="url(#terracottaBg)" />
+
+    <!-- Skateboard Deck -->
+    <g filter="url(#softShadow)">
+      <path
+        d="M 64 156 L 348 76 C 378 68, 405 84, 398 112 L 368 156 L 98 228 C 68 234, 46 212, 52 184 Z"
+        fill="#6B4C38"
+        stroke="#2B1D14"
+        strokeWidth="3"
+      />
+      <!-- Skateboard Grip & Red Text -->
+      <text
+        x="210"
+        y="165"
+        transform="rotate(-15 210 165)"
+        fill="#E03C26"
+        fontFamily="'Kanit', sans-serif"
+        fontWeight="900"
+        fontSize="24"
+        letterSpacing="2"
+      >
+        COURAGE
+      </text>
+      <!-- Wheel under board -->
+      <circle cx="332" cy="144" r="11" fill="#2A1A14" />
+    </g>
+
+    <!-- Cream Beanie Cap (Top Right on Skateboard) -->
+    <g transform="translate(292, 38)" filter="url(#softShadow)">
+      <path
+        d="M 8 56 C 8 16, 30 0, 52 0 C 74 0, 96 16, 96 56 Z"
+        fill="#F5E6C8"
+      />
+      <rect x="4" y="46" width="96" height="26" rx="12" fill="#EFE0C0" stroke="#D9C59E" strokeWidth="2" />
+      <rect x="34" y="34" width="28" height="15" rx="6" fill="#D92B2B" stroke="#FFF" strokeWidth="1.5" />
+    </g>
+
+    <!-- Black Beanie Cap (Center on Skateboard) -->
+    <g transform="translate(216, 56)" filter="url(#softShadow)">
+      <path
+        d="M 8 62 C 8 18, 32 0, 56 0 C 80 0, 104 18, 104 62 Z"
+        fill="#1D1C21"
+      />
+      <rect x="4" y="50" width="104" height="28" rx="13" fill="#151418" stroke="#2D2B32" strokeWidth="2" />
+      <!-- Crown Patch -->
+      <polygon points="44,48 48,34 56,42 64,34 68,48" fill="#F2C994" stroke="#C86D3B" strokeWidth="1.5" />
+    </g>
+
+    <!-- Red Beanie Cap (Middle Right) -->
+    <g transform="translate(328, 124)" filter="url(#softShadow)">
+      <path
+        d="M 8 58 C 8 16, 30 0, 54 0 C 78 0, 100 16, 100 58 Z"
+        fill="#E62E25"
+      />
+      <rect x="4" y="46" width="100" height="28" rx="13" fill="#D9251D" stroke="#B81B14" strokeWidth="2" />
+      <rect x="40" y="42" width="28" height="14" rx="5" fill="#E62E25" stroke="#F8EBD8" strokeWidth="2" />
+    </g>
+
+    <!-- Scattered Embroidered Pins -->
+    <g fill="#E62E25" stroke="#F7E8D0" strokeWidth="2">
+      <ellipse cx="235" cy="224" rx="11" ry="7" />
+      <ellipse cx="272" cy="232" rx="14" ry="7" />
+      <ellipse cx="305" cy="212" rx="12" ry="6" />
+      <ellipse cx="288" cy="256" rx="15" ry="7" />
+      <ellipse cx="338" cy="246" rx="13" ry="6" />
+      <ellipse cx="242" cy="268" rx="9" ry="13" />
+    </g>
+  </g>
+
+  <!-- Overlapping Inset Photo Frame (Bottom Center-Right) -->
+  <g transform="translate(636, 518)">
+    <rect x="0" y="0" width="298" height="206" fill="#F7F0DB" />
+    <rect x="11" y="10" width="276" height="186" fill="url(#insetBg)" />
+
+    <!-- Close-up Red Beanie Top Right of Inset -->
+    <path
+      d="M 145 10 C 142 56, 178 78, 222 78 C 260 78, 284 54, 282 10 Z"
+      fill="#C91E1E"
+      filter="url(#softShadow)"
+    />
+    <rect x="184" y="24" width="44" height="22" rx="8" fill="#C91E1E" stroke="#F3DEC0" strokeWidth="3" />
+    <text x="206" y="39" textAnchor="middle" fill="#F3DEC0" fontFamily="'Kanit', sans-serif" fontSize="9" fontWeight="700">
+      I&apos;m fine
+    </text>
+
+    <!-- Close-up Embroidered Emotion Patches -->
+    <g stroke="#F3DEC0" strokeWidth="2.5" fill="#D62828" filter="url(#softShadow)">
+      <ellipse cx="108" cy="64" rx="12" ry="15" />
+      <rect x="94" y="90" width="42" height="16" rx="8" />
+      <ellipse cx="164" cy="84" rx="20" ry="10" transform="rotate(14 164 84)" />
+      <ellipse cx="42" cy="118" rx="17" ry="11" transform="rotate(-18 42 118)" />
+      <rect x="64" y="122" width="36" height="15" rx="7" transform="rotate(18 82 129)" />
+      <ellipse cx="126" cy="122" rx="15" ry="11" transform="rotate(-22 126 122)" />
+      <ellipse cx="164" cy="140" rx="20" ry="11" transform="rotate(16 164 140)" />
+      <rect x="104" y="142" width="28" height="34" rx="8" transform="rotate(6 118 159)" fill="#F3DEC0" stroke="#D62828" />
+    </g>
+  </g>
+
+  <!-- Bottom Right Blue "* IM FINE *" -->
+  <text
+    x="1008"
+    y="714"
+    textAnchor="middle"
+    fill="#2E5A9C"
+    fontFamily="'Kanit', sans-serif"
+    fontWeight="600"
+    fontSize="36"
+    letterSpacing="2"
+  >
+    * IM FINE *
+  </text>
+</svg>

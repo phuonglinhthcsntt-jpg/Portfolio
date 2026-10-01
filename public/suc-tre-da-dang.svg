@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720">
+  <defs>
+    <linearGradient id="templeRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#9E634D" />
+      <stop offset="60%" stopColor="#C88B73" />
+      <stop offset="100%" stopColor="#7C4332" />
+    </linearGradient>
+    <linearGradient id="templeDoors" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#6D4C52" />
+      <stop offset="50%" stopColor="#845E65" />
+      <stop offset="100%" stopColor="#634349" />
+    </linearGradient>
+    <clipPath id="steppedPhotoClip">
+      <path d="M 108 18 H 790 V 58 H 865 V 465 H 785 V 506 H 108 V 466 H 68 V 58 H 108 Z" />
+    </clipPath>
+  </defs>
+
+  <!-- Soft Cream Background -->
+  <rect width="1200" height="720" fill="#F6F6EE" />
+
+  <!-- Top-Left Stepped Courtyard & Áo Dài Group Photo Illustration -->
+  <g clipPath="url(#steppedPhotoClip)">
+    <!-- Courtyard Background -->
+    <rect x="68" y="18" width="800" height="490" fill="#D5CFC7" />
+
+    <!-- Upper Balcony & Trees -->
+    <rect x="68" y="18" width="800" height="85" fill="#463C35" />
+    <circle cx="140" cy="85" r="45" fill="#3B4D2B" />
+    <circle cx="775" cy="95" r="48" fill="#3B4D2B" />
+
+    <!-- Gray Courtyard Wall with T U and H Banners -->
+    <rect x="68" y="195" width="800" height="125" fill="#C4C2C0" />
+    <rect x="68" y="195" width="800" height="22" fill="#8E8D8A" />
+    <text x="72" y="286" fill="#98282A" fontFamily="serif" fontWeight="900" fontSize="68">T</text>
+    <text x="192" y="286" fill="#98282A" fontFamily="serif" fontWeight="900" fontSize="68">U</text>
+    <text x="735" y="286" fill="#98282A" fontFamily="serif" fontWeight="900" fontSize="68">H</text>
+
+    <!-- Traditional Vietnamese Temple Wood Doors & Pillars -->
+    <rect x="285" y="138" width="365" height="182" fill="url(#templeDoors)" />
+    <!-- Red Wooden Pillars -->
+    <rect x="285" y="138" width="14" height="182" fill="#9E2A3B" />
+    <rect x="405" y="138" width="12" height="182" fill="#9E2A3B" />
+    <rect x="522" y="138" width="12" height="182" fill="#9E2A3B" />
+    <rect x="640" y="138" width="14" height="182" fill="#9E2A3B" />
+
+    <!-- Curved Traditional Tile Roof -->
+    <path
+      d="M 160 112 C 165 82, 200 62, 250 58 L 315 34 H 635 L 695 58 C 745 62, 785 82, 792 112 C 765 138, 710 142, 650 142 H 285 C 225 142, 180 136, 160 112 Z"
+      fill="url(#templeRoof)"
+      stroke="#5C2D20"
+      strokeWidth="4"
+    />
+
+    <!-- Red & Cream Traditional Woven Mats on Courtyard Floor -->
+    <polygon points="68,506 185,325 760,325 865,506" fill="#EDE4D3" />
+    <g stroke="#C6362F" strokeWidth="6" fill="none" opacity="0.8">
+      <line x1="120" y1="506" x2="230" y2="330" />
+      <line x1="255" y1="506" x2="320" y2="330" />
+      <line x1="400" y1="506" x2="430" y2="330" />
+      <line x1="545" y1="506" x2="535" y2="330" />
+      <line x1="690" y1="506" x2="640" y2="330" />
+      <line x1="95" y1="468" x2="835" y2="468" strokeWidth="10" />
+      <line x1="135" y1="415" x2="800" y2="415" strokeWidth="8" />
+    </g>
+
+    <!-- Row of 13 International & FTU Students in Colorful Traditional Áo Dài -->
+    <!-- 1. Teal Áo Dài -->
+    <g transform="translate(115, 298)">
+      <path d="M 18 42 C 8 85, 0 155, -5 190 L 98 190 C 95 140, 72 80, 62 42 Z" fill="#008B94" />
+      <circle cx="42" cy="24" r="16" fill="#F4CFB4" />
+      <path d="M 24 18 C 30 6, 54 6, 60 18" stroke="#008B94" strokeWidth="7" fill="none" />
+    </g>
+    <!-- 2. Navy Áo Dài -->
+    <g transform="translate(196, 272)">
+      <rect x="6" y="38" width="52" height="145" rx="16" fill="#232438" />
+      <circle cx="32" cy="18" r="14" fill="#F5D3B8" />
+    </g>
+    <!-- 3. Cobalt Blue Áo Dài -->
+    <g transform="translate(248, 276)">
+      <rect x="6" y="36" width="44" height="135" rx="14" fill="#1B507A" />
+      <circle cx="28" cy="18" r="13" fill="#F2CCA8" />
+    </g>
+    <!-- 4. Emerald Green Áo Dài -->
+    <g transform="translate(288, 282)">
+      <rect x="6" y="34" width="40" height="122" rx="14" fill="#087E5B" />
+      <circle cx="26" cy="16" r="12" fill="#F0C7A2" />
+    </g>
+    <!-- 5. Sky Cyan Áo Dài -->
+    <g transform="translate(328, 280)">
+      <rect x="4" y="34" width="46" height="124" rx="14" fill="#5FC2D4" />
+      <circle cx="27" cy="16" r="12" fill="#F5D5B8" />
+    </g>
+    <!-- 6. Golden Yellow Áo Dài -->
+    <g transform="translate(382, 266)">
+      <rect x="6" y="34" width="48" height="132" rx="14" fill="#F5BA18" />
+      <circle cx="30" cy="16" r="13" fill="#63412C" />
+    </g>
+    <!-- 7. Bright Red Áo Dài -->
+    <g transform="translate(436, 266)">
+      <rect x="6" y="34" width="46" height="132" rx="14" fill="#E33424" />
+      <circle cx="29" cy="16" r="13" fill="#F4CFB0" />
+    </g>
+    <!-- 8. Deep Green Áo Dài -->
+    <g transform="translate(485, 276)">
+      <rect x="6" y="34" width="44" height="124" rx="14" fill="#0B7A53" />
+      <circle cx="28" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <!-- 9. Peach Áo Dài -->
+    <g transform="translate(528, 282)">
+      <rect x="4" y="32" width="40" height="118" rx="12" fill="#F39B6D" />
+      <circle cx="24" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <!-- 10. Olive Green Áo Dài -->
+    <g transform="translate(564, 282)">
+      <rect x="4" y="32" width="38" height="118" rx="12" fill="#707B28" />
+      <circle cx="23" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <!-- 11. Crimson Áo Dài -->
+    <g transform="translate(600, 284)">
+      <rect x="4" y="32" width="38" height="118" rx="12" fill="#A61C24" />
+      <circle cx="23" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <!-- 12. Sage Green Áo Dài -->
+    <g transform="translate(638, 282)">
+      <rect x="4" y="32" width="40" height="118" rx="12" fill="#B5C7A6" />
+      <circle cx="24" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <!-- 13. Red & White Áo Dài + Right Navy Student -->
+    <g transform="translate(682, 284)">
+      <rect x="4" y="32" width="38" height="118" rx="12" fill="#D92924" />
+      <circle cx="23" cy="16" r="12" fill="#F4CFB0" />
+    </g>
+    <g transform="translate(742, 302)">
+      <path d="M 12 36 C 4 75, -6 125, -14 160 L 76 160 C 74 120, 62 75, 52 36 Z" fill="#32435F" />
+      <circle cx="32" cy="18" r="14" fill="#F0C7A2" />
+    </g>
+  </g>
+
+  <!-- Three Red 4-Point Sparkle Stars (Bottom Left) -->
+  <g fill="#DC5356">
+    <path d="M 108 552 C 112 595, 118 606, 150 612 C 118 618, 112 629, 108 672 C 104 629, 98 618, 66 612 C 98 606, 104 595, 108 552 Z" />
+    <path d="M 268 542 C 273 592, 282 605, 324 612 C 282 619, 273 632, 268 682 C 263 632, 254 619, 212 612 C 254 605, 263 592, 268 542 Z" />
+    <path d="M 422 552 C 426 595, 432 606, 464 612 C 432 618, 426 629, 422 672 C 418 629, 412 618, 380 612 C 412 606, 418 595, 422 552 Z" />
+  </g>
+
+  <!-- Bottom-Right Translucent Pastel Pink Card -->
+  <rect
+    x="512"
+    y="344"
+    width="674"
+    height="364"
+    fill="#F5DCE3"
+    fillOpacity="0.82"
+  />
+
+  <!-- Top-Right Blue 4-Petal Flower Accent -->
+  <g transform="translate(1120, 336) rotate(-18)" fill="#529AC7" fillOpacity="0.9">
+    <ellipse cx="0" cy="-28" rx="22" ry="34" />
+    <ellipse cx="0" cy="28" rx="22" ry="34" />
+    <ellipse cx="-28" cy="0" rx="34" ry="22" />
+    <ellipse cx="28" cy="0" rx="34" ry="22" />
+  </g>
+
+  <!-- Bold Retro-Serif Blue Display Text: ĐA DẠNG / HÒA HỢP -->
+  <text
+    x="848"
+    y="498"
+    textAnchor="middle"
+    fill="#3B6D9C"
+    fontFamily="Georgia, 'Times New Roman', serif"
+    fontWeight="900"
+    fontSize="128"
+    letterSpacing="3"
+  >
+    ĐA DẠNG
+  </text>
+  <text
+    x="848"
+    y="658"
+    textAnchor="middle"
+    fill="#3B6D9C"
+    fontFamily="Georgia, 'Times New Roman', serif"
+    fontWeight="900"
+    fontSize="128"
+    letterSpacing="3"
+  >
+    HÒA HỢP
+  </text>
+</svg>

@@ -1,0 +1,580 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780">
+  <defs>
+    <!-- Checkered Pattern for Left Page Top & Bottom Borders -->
+    <pattern id="tetCheckered" width="48" height="40" patternUnits="userSpaceOnUse">
+      <rect width="24" height="20" fill="#C62821" />
+      <rect x="24" width="24" height="20" fill="#F8F1CE" />
+      <rect y="20" width="24" height="20" fill="#F8F1CE" />
+      <rect x="24" y="20" width="24" height="20" fill="#C62821" />
+    </pattern>
+
+    <!-- Plaid Pattern for Kirill's Jacket -->
+    <pattern id="plaidJacket" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+      <rect width="16" height="16" fill="#DDD2C0" />
+      <rect x="0" y="0" width="16" height="5" fill="#2B2623" opacity="0.75" />
+      <rect x="0" y="0" width="5" height="16" fill="#2B2623" opacity="0.75" />
+      <line x1="0" y1="10" x2="16" y2="10" stroke="#7A6A58" strokeWidth="1.5" />
+      <line x1="10" y1="0" x2="10" y2="16" stroke="#7A6A58" strokeWidth="1.5" />
+    </pattern>
+
+    <linearGradient id="lanternGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFA726" />
+      <stop offset="55%" stopColor="#F57C00" />
+      <stop offset="100%" stopColor="#D84315" />
+    </linearGradient>
+
+    <linearGradient id="scrollPaper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFF8DC" />
+      <stop offset="100%" stopColor="#F5E8B8" />
+    </linearGradient>
+
+    <!-- Reusable 5-Point Star -->
+    <polygon id="star5" points="0,-6 1.8,-1.8 6.2,-1.8 2.6,0.8 4,5.2 0,2.5 -4,5.2 -2.6,0.8 -6.2,-1.8 -1.8,-1.8" stroke="#2B1810" strokeWidth="0.9" />
+  </defs>
+
+  <!-- ==================== LEFT PAGE (x: 0 -> 600) ==================== -->
+  <rect x="0" y="0" width="600" height="780" fill="#C62821" />
+
+  <!-- Top & Bottom Checkered Borders -->
+  <rect x="0" y="0" width="600" height="40" fill="url(#tetCheckered)" stroke="#2B1810" strokeWidth="1.5" />
+  <rect x="0" y="740" width="600" height="40" fill="url(#tetCheckered)" stroke="#2B1810" strokeWidth="1.5" />
+
+  <!-- Top Oval Badge: VITAMIN F -->
+  <g transform="translate(295, 48)">
+    <ellipse cx="0" cy="0" rx="68" ry="20" fill="#F8F1CE" stroke="#2B1810" strokeWidth="2" />
+    <path d="M -56 -2 C -30 -16, 30 -16, 56 -2" fill="none" stroke="#C62821" strokeWidth="1.2" />
+    <text x="0" y="7" textAnchor="middle" fill="#C62821" stroke="#2B1810" strokeWidth="0.6" fontFamily="Impact, 'Kanit', sans-serif" fontWeight="900" fontSize="22" letterSpacing="1">
+      VITAMIN F
+    </text>
+    <!-- Sparkles -->
+    <path d="M -82 -14 L -79 -8 L -73 -5 L -79 -2 L -82 4 L -85 -2 L -91 -5 L -85 -8 Z" fill="#F8F1CE" stroke="#2B1810" strokeWidth="0.8" />
+    <path d="M 76 6 L 78 11 L 83 13 L 78 15 L 76 20 L 74 15 L 69 13 L 74 11 Z" fill="#F8F1CE" stroke="#2B1810" strokeWidth="0.8" />
+  </g>
+
+  <!-- Left Hanging Lantern -->
+  <g transform="translate(115, 22)">
+    <line x1="0" y1="-22" x2="0" y2="10" stroke="#2B1810" strokeWidth="2.5" />
+    <rect x="-15" y="10" width="30" height="7" rx="2" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.8" />
+    <ellipse cx="0" cy="46" rx="38" ry="30" fill="url(#lanternGrad)" stroke="#2B1810" strokeWidth="2" />
+    <ellipse cx="0" cy="46" rx="26" ry="30" fill="none" stroke="#2B1810" strokeWidth="1.3" />
+    <ellipse cx="0" cy="46" rx="13" ry="30" fill="none" stroke="#2B1810" strokeWidth="1.3" />
+    <line x1="0" y1="16" x2="0" y2="76" stroke="#2B1810" strokeWidth="1.3" />
+    <rect x="-14" y="74" width="28" height="7" rx="2" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.8" />
+    <!-- Tassel -->
+    <line x1="0" y1="81" x2="0" y2="112" stroke="#2B1810" strokeWidth="2" />
+    <polygon points="-5,112 5,112 7,144 -7,144" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.5" />
+  </g>
+
+  <!-- Right Hanging Lantern -->
+  <g transform="translate(468, 22)">
+    <line x1="0" y1="-22" x2="0" y2="10" stroke="#2B1810" strokeWidth="2.5" />
+    <rect x="-15" y="10" width="30" height="7" rx="2" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.8" />
+    <ellipse cx="0" cy="46" rx="38" ry="30" fill="url(#lanternGrad)" stroke="#2B1810" strokeWidth="2" />
+    <ellipse cx="0" cy="46" rx="26" ry="30" fill="none" stroke="#2B1810" strokeWidth="1.3" />
+    <ellipse cx="0" cy="46" rx="13" ry="30" fill="none" stroke="#2B1810" strokeWidth="1.3" />
+    <line x1="0" y1="16" x2="0" y2="76" stroke="#2B1810" strokeWidth="1.3" />
+    <rect x="-14" y="74" width="28" height="7" rx="2" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.8" />
+    <!-- Tassel -->
+    <line x1="0" y1="81" x2="0" y2="112" stroke="#2B1810" strokeWidth="2" />
+    <polygon points="-5,112 5,112 7,144 -7,144" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.5" />
+  </g>
+
+  <!-- Orange 4-Point Sparkle near Right Lantern -->
+  <path d="M 542 114 L 545 121 L 552 124 L 545 127 L 542 134 L 539 127 L 532 124 L 539 121 Z" fill="#F59E0B" stroke="#2B1810" strokeWidth="1" />
+
+  <!-- Scroll Banner: TẾT VIỆT QUA LĂNG KÍNH BẠN BÈ QUỐC TẾ TẠI NGOẠI THƯƠNG -->
+  <g transform="translate(0, 2)">
+    <!-- Stepped Arched Top Backdrop behind TẾT VIỆT -->
+    <path
+      d="M 186 138 C 186 116, 208 112, 224 112 C 234 98, 260 98, 272 106 C 288 94, 312 94, 326 108 C 344 102, 368 106, 376 116 C 392 114, 404 122, 404 138 Z"
+      fill="url(#scrollPaper)"
+      stroke="#2B1810"
+      strokeWidth="2"
+    />
+    <!-- Main Scroll Body -->
+    <rect x="74" y="138" width="444" height="106" fill="url(#scrollPaper)" stroke="#2B1810" strokeWidth="2" />
+    <!-- Left Scroll Cylinder -->
+    <rect x="52" y="128" width="22" height="124" rx="6" fill="#F3E5AB" stroke="#2B1810" strokeWidth="2" />
+    <ellipse cx="63" cy="132" rx="11" ry="4" fill="#C62821" stroke="#2B1810" strokeWidth="1.5" />
+    <ellipse cx="63" cy="248" rx="11" ry="4" fill="#C62821" stroke="#2B1810" strokeWidth="1.5" />
+    <!-- Right Scroll Cylinder -->
+    <rect x="518" y="128" width="22" height="124" rx="6" fill="#F3E5AB" stroke="#2B1810" strokeWidth="2" />
+    <ellipse cx="529" cy="132" rx="11" ry="4" fill="#C62821" stroke="#2B1810" strokeWidth="1.5" />
+    <ellipse cx="529" cy="248" rx="11" ry="4" fill="#C62821" stroke="#2B1810" strokeWidth="1.5" />
+
+    <!-- Scroll Typography with 3D Extrusion -->
+    <text x="299" y="164" textAnchor="middle" fill="#2B1810" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="44" letterSpacing="1.5">
+      TẾT VIỆT
+    </text>
+    <text x="296" y="161" textAnchor="middle" fill="#F59E0B" stroke="#2B1810" strokeWidth="1.8" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="44" letterSpacing="1.5">
+      TẾT VIỆT
+    </text>
+
+    <text x="296" y="198" textAnchor="middle" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="24.5" letterSpacing="0.4">
+      QUA LĂNG KÍNH BẠN BÈ QUỐC TẾ
+    </text>
+
+    <text x="298" y="231" textAnchor="middle" fill="#2B1810" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="24" letterSpacing="1">
+      TẠI NGOẠI THƯƠNG
+    </text>
+    <text x="296" y="229" textAnchor="middle" fill="#D63227" stroke="#2B1810" strokeWidth="1.2" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="24" letterSpacing="1">
+      TẠI NGOẠI THƯƠNG
+    </text>
+  </g>
+
+  <!-- Decorative Double-Line Corner Brackets -->
+  <g stroke="#F8F1CE" strokeWidth="2.5" fill="none">
+    <path d="M 38 282 H 90 M 48 272 V 326" />
+    <rect x="44" y="278" width="8" height="8" />
+    <path d="M 488 404 H 542 M 532 360 V 412" />
+    <rect x="528" y="400" width="8" height="8" />
+  </g>
+
+  <!-- Stylized Traditional Multi-Curl Clouds -->
+  <!-- Right Cloud -->
+  <g transform="translate(465, 274)" fill="#F8F1CE" stroke="#2B1810" strokeWidth="1.6">
+    <path d="M 18 34 C 4 34, 0 20, 14 16 C 18 2, 40 -2, 50 10 C 62 2, 82 10, 78 26 C 92 28, 92 42, 74 44 H 18 C 6 44, 4 36, 18 34 Z" />
+    <path d="M 26 28 C 32 20, 44 20, 48 28 M 52 26 C 58 18, 68 20, 70 28" fill="none" stroke="#2B1810" strokeWidth="1.3" strokeLinecap="round" />
+  </g>
+  <!-- Left Cloud -->
+  <g transform="translate(24, 374)" fill="#F8F1CE" stroke="#2B1810" strokeWidth="1.6">
+    <path d="M 20 36 C 4 36, 0 22, 16 18 C 20 2, 44 -2, 54 12 C 68 4, 88 12, 84 28 C 98 30, 96 46, 78 46 H 20 C 6 46, 4 38, 20 36 Z" />
+    <path d="M 28 30 C 36 22, 48 22, 52 30 M 56 28 C 64 20, 74 22, 76 30" fill="none" stroke="#2B1810" strokeWidth="1.3" strokeLinecap="round" />
+  </g>
+
+  <!-- White Italic Intro Text -->
+  <g fill="#FFFDF4" fontFamily="'Kanit', sans-serif" fontStyle="italic" fontSize="11.6" textAnchor="middle">
+    <text x="278" y="304">Tết Nguyên Đán, hay còn gọi là Tết Việt, được biết đến như một dịp lễ</text>
+    <text x="278" y="321">đón năm mới đặc trưng của các quốc gia Á Đông, trong đó có Việt Nam.</text>
+    <text x="285" y="338">Không chỉ mang đậm những nét văn hóa đặc trưng của Tết Đông Á, Tết Việt còn</text>
+    <text x="285" y="355">phản ánh những giá trị và truyền thống đặc sắc của con người Việt Nam. Song, Tết</text>
+    <text x="285" y="372">Việt hiện lên như thế nào dưới góc nhìn của bạn bè quốc tế? Hãy cùng lắng nghe</text>
+    <text x="296" y="389">những trải nghiệm đón Tết tại Việt Nam của các sinh viên và giảng viên quốc tế</text>
+    <text x="312" y="406">đã và đang học tập và làm việc tại Trường Đại học Ngoại thương nhé!</text>
+  </g>
+
+  <!-- ===== 3 DETAILED INTERNATIONAL PROFILE CARDS (y: 446 -> 696) ===== -->
+  <!-- CARD 1: CÔ KEIKO SATO -->
+  <g transform="translate(64, 446)">
+    <rect x="0" y="0" width="142" height="192" rx="14" fill="#F8F1CE" stroke="#2B1810" strokeWidth="2" />
+    <text x="92" y="27" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="16">
+      CÔ KEIKO
+    </text>
+    <text x="104" y="46" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="16">
+      SATO
+    </text>
+
+    <!-- Decorative Stars -->
+    <use href="#star5" x="32" y="42" fill="#D62828" />
+    <use href="#star5" x="118" y="78" fill="#F59E0B" />
+    <use href="#star5" x="14" y="114" fill="#D62828" />
+
+    <!-- Detailed Portrait of Cô Keiko Sato -->
+    <!-- Beige Open Cardigan & Cream Inner Top -->
+    <path d="M 20 192 C 20 142, 34 114, 54 110 L 90 110 C 110 114, 122 142, 122 192 Z" fill="#C8B9A6" stroke="#2B1810" strokeWidth="1.5" />
+    <path d="M 54 110 L 62 192 L 82 192 L 90 110 Z" fill="#EFE8D8" />
+    <!-- Patterned Burgundy Scarf -->
+    <path d="M 52 104 C 58 122, 86 122, 92 104 L 88 128 C 78 134, 66 134, 56 128 Z" fill="#7F1D1D" stroke="#2B1810" strokeWidth="1.2" />
+    <!-- Folded Arms & Hands Holding Note Card -->
+    <path d="M 22 166 L 62 162 L 62 178 L 24 184 Z" fill="#BCA992" stroke="#2B1810" strokeWidth="1.2" />
+    <path d="M 120 166 L 80 162 L 80 178 L 118 184 Z" fill="#BCA992" stroke="#2B1810" strokeWidth="1.2" />
+    <rect x="64" y="160" width="22" height="14" rx="2" fill="#FFFFFF" stroke="#94A3B8" strokeWidth="1" />
+    <!-- Neck & Smiling Face -->
+    <rect x="64" y="94" width="16" height="16" fill="#F3CBB0" />
+    <ellipse cx="72" cy="80" rx="19" ry="22" fill="#F5D0B5" stroke="#2B1810" strokeWidth="1.4" />
+    <!-- Short Silver-Brown Bob Hair -->
+    <path d="M 51 82 C 48 56, 62 52, 74 52 C 88 52, 95 60, 92 84 C 90 68, 82 62, 70 62 C 58 62, 53 70, 51 82 Z" fill="#524741" />
+    <!-- Glasses, Eyes & Warm Smile -->
+    <rect x="59" y="74" width="10" height="6" rx="2" fill="none" stroke="#475569" strokeWidth="1.2" />
+    <rect x="74" y="74" width="10" height="6" rx="2" fill="none" stroke="#475569" strokeWidth="1.2" />
+    <line x1="69" y1="77" x2="74" y2="77" stroke="#475569" strokeWidth="1.2" />
+    <path d="M 66 90 Q 72 95 78 90" fill="none" stroke="#9A3412" strokeWidth="1.6" strokeLinecap="round" />
+
+    <!-- Japan Flag Badge -->
+    <g transform="translate(-10, 62) rotate(-14)">
+      <rect x="0" y="0" width="46" height="32" fill="#FFFFFF" stroke="#2B1810" strokeWidth="1.5" />
+      <circle cx="23" cy="16" r="9" fill="#BC002D" />
+    </g>
+
+    <!-- Orange Bottom Box -->
+    <rect x="0" y="192" width="142" height="58" fill="#F38B20" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="2" y="194" width="138" height="54" fill="none" stroke="#FDE68A" strokeWidth="0.8" />
+    <g fill="#FFFDF4" fontFamily="'Kanit', sans-serif" fontSize="8.8" textAnchor="middle">
+      <text x="71" y="207">Giảng viên môn Văn hóa</text>
+      <text x="71" y="219">Nhật Bản và giao thoa văn</text>
+      <text x="71" y="231">hóa Nhật Bản, viện VJCC,</text>
+      <text x="71" y="243">trường ĐH Ngoại thương</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: THẦY CALUM LEATHAM -->
+  <g transform="translate(225, 446)">
+    <rect x="0" y="0" width="142" height="192" rx="14" fill="#F8F1CE" stroke="#2B1810" strokeWidth="2" />
+    <text x="64" y="27" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="15.5">
+      THẦY CALUM
+    </text>
+    <text x="58" y="46" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="15.5">
+      LEATHAM
+    </text>
+
+    <!-- Decorative Stars -->
+    <use href="#star5" x="120" y="36" fill="#F59E0B" />
+    <use href="#star5" x="24" y="68" fill="#F59E0B" />
+    <use href="#star5" x="120" y="122" fill="#F59E0B" />
+
+    <!-- Detailed Portrait of Thầy Calum Leatham (Dark Shirt, Glasses, Holding Microphone) -->
+    <path d="M 22 192 C 24 134, 42 112, 68 112 C 96 112, 114 134, 118 192 Z" fill="#1E242B" stroke="#2B1810" strokeWidth="1.5" />
+    <!-- Shirt Collar & Buttons -->
+    <polygon points="55,110 68,126 60,132 48,116" fill="#28313B" stroke="#111827" strokeWidth="1" />
+    <polygon points="81,110 68,126 76,132 88,116" fill="#28313B" stroke="#111827" strokeWidth="1" />
+    <line x1="68" y1="126" x2="68" y2="192" stroke="#111827" strokeWidth="2" />
+    <!-- Neck & Head -->
+    <rect x="60" y="96" width="16" height="18" fill="#F5D0B5" />
+    <ellipse cx="68" cy="80" rx="19" ry="22" fill="#F5D0B5" stroke="#2B1810" strokeWidth="1.4" />
+    <!-- Short Dark Hair -->
+    <path d="M 49 76 C 48 52, 88 52, 87 76 C 82 62, 54 62, 49 76 Z" fill="#231F20" />
+    <!-- Glasses -->
+    <rect x="54" y="74" width="11" height="7" rx="1.5" fill="none" stroke="#1E293B" strokeWidth="1.5" />
+    <rect x="69" y="74" width="11" height="7" rx="1.5" fill="none" stroke="#1E293B" strokeWidth="1.5" />
+    <line x1="65" y1="77" x2="69" y2="77" stroke="#1E293B" strokeWidth="1.5" />
+    <!-- Hand & Microphone Held Near Mouth -->
+    <rect x="50" y="96" width="8" height="28" rx="3" transform="rotate(18, 54, 110)" fill="#111827" />
+    <circle cx="57" cy="94" r="5.5" fill="#374151" stroke="#111827" strokeWidth="1.2" />
+    <ellipse cx="47" cy="118" rx="9" ry="7" fill="#F5D0B5" stroke="#2B1810" strokeWidth="1.2" />
+    <!-- Left Hand Gesturing at Bottom Right -->
+    <ellipse cx="94" cy="176" rx="12" ry="8" fill="#F5D0B5" stroke="#2B1810" strokeWidth="1.2" />
+
+    <!-- UK Flag Badge -->
+    <g transform="translate(98, 62) rotate(10)">
+      <rect x="0" y="0" width="46" height="30" fill="#012169" stroke="#2B1810" strokeWidth="1.5" />
+      <path d="M0 0 L46 30 M46 0 L0 30" stroke="#FFFFFF" strokeWidth="5" />
+      <path d="M0 0 L46 30 M46 0 L0 30" stroke="#C8102E" strokeWidth="2.2" />
+      <path d="M23 0 V30 M0 15 H46" stroke="#FFFFFF" strokeWidth="8" />
+      <path d="M23 0 V30 M0 15 H46" stroke="#C8102E" strokeWidth="4.5" />
+    </g>
+
+    <!-- Orange Bottom Box -->
+    <rect x="0" y="192" width="142" height="58" fill="#F38B20" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="2" y="194" width="138" height="54" fill="none" stroke="#FDE68A" strokeWidth="0.8" />
+    <g fill="#FFFDF4" fontFamily="'Kanit', sans-serif" fontSize="8.8" textAnchor="middle">
+      <text x="71" y="208">- Thạc sĩ chuyên ngành</text>
+      <text x="71" y="220">Lịch sử Anh</text>
+      <text x="71" y="232">- Giảng viên trường ĐH</text>
+      <text x="71" y="244">Ngoại thương</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: GORSHKOLEPOV KIRILL -->
+  <g transform="translate(386, 446)">
+    <rect x="0" y="0" width="142" height="192" rx="14" fill="#F8F1CE" stroke="#2B1810" strokeWidth="2" />
+    <text x="71" y="27" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="14.2">
+      GORSHKOLEPOV
+    </text>
+    <text x="71" y="46" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="15">
+      KIRILL
+    </text>
+
+    <!-- Decorative Stars -->
+    <use href="#star5" x="102" y="54" fill="#F59E0B" />
+    <use href="#star5" x="20" y="92" fill="#F59E0B" />
+    <use href="#star5" x="116" y="106" fill="#1D4E9E" />
+
+    <!-- Detailed Portrait of Gorshkolepov Kirill (Plaid Flannel Jacket, Thoughtful Pose) -->
+    <path d="M 16 192 C 22 130, 44 110, 72 110 C 102 110, 120 134, 126 192 Z" fill="url(#plaidJacket)" stroke="#2B1810" strokeWidth="1.5" />
+    <!-- Inner Dark Collar -->
+    <polygon points="58,110 86,110 76,142 64,142" fill="#27272A" />
+    <!-- Neck & Head Looking Slightly Right -->
+    <rect x="64" y="94" width="16" height="18" fill="#F6D5BC" />
+    <ellipse cx="72" cy="80" rx="19" ry="22" fill="#F6D5BC" stroke="#2B1810" strokeWidth="1.4" />
+    <!-- Light Brown / Ash Blonde Hair -->
+    <path d="M 52 78 C 50 52, 88 50, 92 74 C 84 60, 60 60, 52 78 Z" fill="#6E543E" />
+    <!-- Eyes & Brow -->
+    <circle cx="68" cy="76" r="1.6" fill="#1E293B" />
+    <circle cx="80" cy="76" r="1.6" fill="#1E293B" />
+    <path d="M 73 88 Q 78 90 82 88" fill="none" stroke="#9A3412" strokeWidth="1.3" />
+    <!-- Thoughtful Hand Raised Under Chin -->
+    <path d="M 64 192 L 78 122 L 94 126 L 86 192 Z" fill="url(#plaidJacket)" stroke="#2B1810" strokeWidth="1.2" />
+    <ellipse cx="84" cy="112" rx="9" ry="11" fill="#F6D5BC" stroke="#2B1810" strokeWidth="1.2" />
+
+    <!-- Russia Flag Badge -->
+    <g transform="translate(102, 138) rotate(12)">
+      <rect x="0" y="0" width="46" height="30" fill="#FFFFFF" stroke="#2B1810" strokeWidth="1.5" />
+      <rect x="0" y="10" width="46" height="10" fill="#0039A6" />
+      <rect x="0" y="20" width="46" height="10" fill="#D52B1E" />
+    </g>
+
+    <!-- Orange Bottom Box -->
+    <rect x="0" y="192" width="142" height="58" fill="#F38B20" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="2" y="194" width="138" height="54" fill="none" stroke="#FDE68A" strokeWidth="0.8" />
+    <g fill="#FFFDF4" fontFamily="'Kanit', sans-serif" fontSize="8.5" textAnchor="middle">
+      <text x="71" y="207">Thạc sĩ chuyên ngành</text>
+      <text x="71" y="219">Chính sách và Luật Thương</text>
+      <text x="71" y="231">mại quốc tế, trường ĐH</text>
+      <text x="71" y="243">Ngoại thương</text>
+    </g>
+  </g>
+
+  <!-- Page 4 Footer Badge -->
+  <rect x="0" y="750" width="56" height="22" rx="10" fill="#0F0F0F" />
+  <text x="12" y="762" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="7.5">Sức</text>
+  <text x="12" y="769" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="7.5">trẻ</text>
+  <text x="41" y="765" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12">4</text>
+
+  <!-- ==================== RIGHT PAGE (x: 600 -> 1200) ==================== -->
+  <rect x="600" y="0" width="600" height="780" fill="#F8F1CE" />
+
+  <!-- Top-Right Festive Flag Bunting (Vietnam Star & Party Hammer-and-Sickle Flags) -->
+  <path d="M 885 0 Q 1040 52 1200 45" stroke="#9E1F1B" strokeWidth="3" fill="none" />
+  <!-- Flag 1: Gold Star -->
+  <g transform="translate(908, 8) rotate(15)">
+    <rect x="0" y="0" width="44" height="58" fill="#D62828" stroke="#2B1810" strokeWidth="1.6" />
+    <polygon points="22,16 25,25 34,25 27,30 29,39 22,34 15,39 17,30 10,25 19,25" fill="#F59E0B" stroke="#2B1810" strokeWidth="0.7" />
+  </g>
+  <!-- Flag 2: Hammer & Sickle -->
+  <g transform="translate(984, 27) rotate(9)">
+    <rect x="0" y="0" width="44" height="58" fill="#D62828" stroke="#2B1810" strokeWidth="1.6" />
+    <path d="M 16 20 A 9 9 0 1 1 14 34 M 15 20 L 29 34 M 12 24 L 20 16" stroke="#F59E0B" strokeWidth="3" fill="none" strokeLinecap="round" />
+  </g>
+  <!-- Flag 3: Gold Star -->
+  <g transform="translate(1058, 39) rotate(4)">
+    <rect x="0" y="0" width="44" height="58" fill="#D62828" stroke="#2B1810" strokeWidth="1.6" />
+    <polygon points="22,16 25,25 34,25 27,30 29,39 22,34 15,39 17,30 10,25 19,25" fill="#F59E0B" stroke="#2B1810" strokeWidth="0.7" />
+  </g>
+  <!-- Flag 4: Hammer & Sickle -->
+  <g transform="translate(1130, 44) rotate(-2)">
+    <rect x="0" y="0" width="44" height="58" fill="#D62828" stroke="#2B1810" strokeWidth="1.6" />
+    <path d="M 16 20 A 9 9 0 1 1 14 34 M 15 20 L 29 34 M 12 24 L 20 16" stroke="#F59E0B" strokeWidth="3" fill="none" strokeLinecap="round" />
+  </g>
+
+  <!-- Top-Left 3D Extruded Title: TẾT TÂY & TẾT TA -->
+  <g transform="translate(658, 90)">
+    <text x="3" y="3" fill="#2B1810" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="39" letterSpacing="2">
+      TẾT TÂY ,
+    </text>
+    <text x="0" y="0" fill="#D62828" stroke="#2B1810" strokeWidth="1.5" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="39" letterSpacing="2">
+      TẾT TÂY ,
+    </text>
+    <text x="15" y="45" fill="#2B1810" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="39" letterSpacing="2">
+      &amp; TẾT TA
+    </text>
+    <text x="12" y="42" fill="#D62828" stroke="#2B1810" strokeWidth="1.5" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="39" letterSpacing="2">
+      &amp; TẾT TA
+    </text>
+  </g>
+
+  <!-- ===== TWO OVERLAPPING FRAMED TẾT PHOTOS (x: 660..864, y: 158..318) ===== -->
+  <!-- Photo 1: Traditional Vietnamese Tết Feast Table -->
+  <g transform="translate(660, 158)">
+    <rect x="0" y="0" width="134" height="102" fill="#2B1912" stroke="#C62821" strokeWidth="3.5" />
+    <!-- Red Festive Tablecloth Corner & Peach Blossoms -->
+    <polygon points="0,0 54,0 0,38" fill="#991B1B" />
+    <circle cx="18" cy="14" r="3" fill="#F472B6" />
+    <circle cx="28" cy="10" r="2.5" fill="#F472B6" />
+    <!-- Plate 1: Green Square Bánh Chưng -->
+    <ellipse cx="92" cy="30" rx="18" ry="12" fill="#F1F5F9" />
+    <rect x="82" y="22" width="20" height="15" rx="2" fill="#4D7C0F" stroke="#ECFCCB" strokeWidth="1" />
+    <!-- Plate 2: Golden Boiled Chicken / Xôi -->
+    <ellipse cx="52" cy="38" rx="17" ry="12" fill="#E2E8F0" />
+    <ellipse cx="52" cy="38" rx="12" ry="8" fill="#F59E0B" />
+    <!-- Plate 3: Fried Nem Rán (Spring Rolls) -->
+    <ellipse cx="26" cy="60" rx="18" ry="12" fill="#F8FAFC" />
+    <rect x="16" y="55" width="18" height="4" rx="2" fill="#B45309" />
+    <rect x="18" y="60" width="18" height="4" rx="2" fill="#92400E" />
+    <!-- Bowl 4: Canh Măng Soup -->
+    <ellipse cx="66" cy="64" rx="17" ry="12" fill="#FFFBEB" stroke="#D97706" strokeWidth="1.5" />
+    <ellipse cx="66" cy="64" rx="13" ry="8" fill="#FBBF24" />
+    <circle cx="64" cy="63" r="2" fill="#15803D" />
+    <!-- Plate 5: Giò Lụa & Salad -->
+    <ellipse cx="106" cy="58" rx="17" ry="11" fill="#F1F5F9" />
+    <circle cx="106" cy="58" r="8" fill="#FDE68A" />
+    <!-- Front Plates -->
+    <ellipse cx="42" cy="84" rx="16" ry="10" fill="#F8FAFC" />
+    <ellipse cx="42" cy="84" rx="11" ry="6" fill="#DC2626" />
+    <ellipse cx="80" cy="86" rx="15" ry="10" fill="#F8FAFC" />
+    <ellipse cx="80" cy="86" rx="10" ry="6" fill="#65A30D" />
+  </g>
+
+  <!-- Photo 2: Hanoi Street Decorated with Vietnamese Flags -->
+  <g transform="translate(734, 226)">
+    <rect x="0" y="0" width="130" height="88" fill="#E2E8F0" stroke="#C62821" strokeWidth="3.5" />
+    <!-- Street Perspective & Trees -->
+    <polygon points="0,88 48,42 82,42 130,88" fill="#64748B" />
+    <circle cx="14" cy="28" r="22" fill="#3F6212" />
+    <circle cx="116" cy="26" r="24" fill="#365314" />
+    <circle cx="65" cy="22" r="18" fill="#4D7C0F" />
+    <!-- Hanging Red Vietnamese Flags with Gold Stars -->
+    <path d="M 0 18 Q 65 34 130 16" stroke="#FFFFFF" strokeWidth="1" fill="none" />
+    <g transform="translate(16, 22) rotate(12)">
+      <polygon points="0,0 24,8 8,36" fill="#DC2626" />
+      <circle cx="11" cy="14" r="2.5" fill="#FACC15" />
+    </g>
+    <g transform="translate(54, 26) rotate(6)">
+      <polygon points="0,0 24,8 10,36" fill="#DC2626" />
+      <circle cx="12" cy="14" r="2.5" fill="#FACC15" />
+    </g>
+    <g transform="translate(92, 20) rotate(-8)">
+      <polygon points="0,6 24,0 16,34" fill="#DC2626" />
+      <circle cx="13" cy="14" r="2.5" fill="#FACC15" />
+    </g>
+  </g>
+
+  <!-- Top-Right Article Text Block -->
+  <g fill="#231F20" fontFamily="'Kanit', sans-serif" fontSize="8.4">
+    <text x="884" y="166">Tết Việt, một lễ hội truyền thống với những phong tục tập quán</text>
+    <text x="884" y="177">độc đáo, luôn thu hút sự quan tâm của bạn bè quốc tế. Khi</text>
+    <text x="884" y="188">được hỏi về trải nghiệm Tết Việt, Gorshkolepov Kirill - sinh viên</text>
+    <text x="884" y="199">người Nga, từng theo học chương trình thạc sĩ ở Ngoại thương,</text>
+    <text x="884" y="210">chia sẻ: <tspan fontStyle="italic" fontWeight="600">“Khi đến Việt Nam, lần đầu mình được chứng kiến du</tspan></text>
+    <text x="884" y="221" fontStyle="italic" fontWeight="600">học sinh Trung Quốc và sinh viên Việt Nam tổ chức tiệc ở ký túc</text>
+    <text x="884" y="232" fontStyle="italic" fontWeight="600">xá để đón Tết. Bản thân mình thậm chí cũng quay lại những</text>
+    <text x="884" y="243" fontStyle="italic" fontWeight="600">video đầy thú vị trong buổi tiệc hôm đó về lần đầu cố gắng học</text>
+    <text x="884" y="254"><tspan fontStyle="italic" fontWeight="600">cách cắt bánh chưng”.</tspan> Không những thế, khác với những lễ hội</text>
+    <text x="884" y="265">truyền thống ở Nga khi mọi người thường ở nhà nghỉ ngơi, Tết</text>
+    <text x="884" y="276">Việt mang đến một không khí vô cùng náo nhiệt với những hoạt</text>
+    <text x="884" y="287">động cộng đồng. Việc cùng bạn bè Việt Nam đi ăn những món</text>
+    <text x="884" y="298">ăn truyền thống, tham quan phố cổ và thậm chí còn khám phá</text>
+    <text x="884" y="309">đường tàu ngày Tết là những trải nghiệm độc đáo mà Gorsh-</text>
+    <text x="884" y="320">kolepov chưa từng được trải qua trước đây.</text>
+  </g>
+
+  <!-- Middle Article Text Block + Peach Blossom Branch -->
+  <g fill="#231F20" fontFamily="'Kanit', sans-serif" fontSize="8.4">
+    <text x="660" y="360">Đối với cô Keiko Sato - người đã sống ở Việt Nam được 7 năm kể từ năm</text>
+    <text x="660" y="371">2011, những nghi lễ ngày Tết đã trở nên quen thuộc và trở thành niềm</text>
+    <text x="660" y="382">yêu thích của cô: <tspan fontStyle="italic" fontWeight="600">“Cô yêu thích tất cả các hoạt động hướng tới ngày Tết như</tspan></text>
+    <text x="660" y="393" fontStyle="italic" fontWeight="600">tiễn ông Táo về trời; thả cá chép ngày ông Công ông Táo; chuẩn bị bánh chưng</text>
+    <text x="660" y="404" fontStyle="italic" fontWeight="600">và các món ăn; trang trí nhà cửa bằng cây nêu, cây quất cũng như các loại hoa</text>
+    <text x="660" y="415"><tspan fontStyle="italic" fontWeight="600">rực rỡ khác”.</tspan> Khác với Việt Nam, người Nhật Bản lấy ngày 1/1 hàng năm theo lịch dương tượng trưng cho ngày</text>
+    <text x="660" y="426">đầu năm mới. Nhưng khi đón ngày đầu năm mới ở cả hai nước, cô đều có chung cảm giác hạnh phúc: <tspan fontStyle="italic" fontWeight="600">“Kỳ nghỉ năm</tspan></text>
+    <text x="660" y="437" fontStyle="italic" fontWeight="600">mới của cả hai nước đều là dịp để gia đình và bạn bè quây quần bên nhau, chúc nhau có thật nhiều sức khỏe và</text>
+    <text x="660" y="448" fontStyle="italic" fontWeight="600">hạnh phúc.”</text>
+  </g>
+
+  <!-- Detailed Peach Blossom Branch Illustration (Right Middle) -->
+  <g transform="translate(998, 336)">
+    <path d="M 202 82 C 145 56, 88 30, 14 4 M 132 50 C 98 64, 64 74, 20 76 M 95 34 L 72 8" stroke="#3E1F14" strokeWidth="4" fill="none" strokeLinecap="round" />
+    <!-- Green Leaves -->
+    <ellipse cx="52" cy="14" rx="6" ry="2.5" transform="rotate(-25, 52, 14)" fill="#4D7C0F" />
+    <ellipse cx="108" cy="32" rx="6" ry="2.5" transform="rotate(20, 108, 32)" fill="#4D7C0F" />
+    <ellipse cx="86" cy="64" rx="6" ry="2.5" transform="rotate(-15, 86, 64)" fill="#4D7C0F" />
+    <!-- 5-Petal Pink Blossoms -->
+    <g transform="translate(36, 16)">
+      <circle cx="0" cy="-5" r="4.5" fill="#F472B6" />
+      <circle cx="5" cy="-1" r="4.5" fill="#F472B6" />
+      <circle cx="3" cy="5" r="4.5" fill="#F472B6" />
+      <circle cx="-3" cy="5" r="4.5" fill="#F472B6" />
+      <circle cx="-5" cy="-1" r="4.5" fill="#F472B6" />
+      <circle cx="0" cy="0" r="2.5" fill="#9D174D" />
+    </g>
+    <g transform="translate(82, 28)">
+      <circle cx="0" cy="-5" r="5" fill="#EC4899" />
+      <circle cx="5" cy="-1" r="5" fill="#EC4899" />
+      <circle cx="3" cy="5" r="5" fill="#EC4899" />
+      <circle cx="-3" cy="5" r="5" fill="#EC4899" />
+      <circle cx="-5" cy="-1" r="5" fill="#EC4899" />
+      <circle cx="0" cy="0" r="2.5" fill="#831843" />
+    </g>
+    <g transform="translate(124, 44)">
+      <circle cx="0" cy="-5" r="4.5" fill="#F472B6" />
+      <circle cx="5" cy="-1" r="4.5" fill="#F472B6" />
+      <circle cx="3" cy="5" r="4.5" fill="#F472B6" />
+      <circle cx="-3" cy="5" r="4.5" fill="#F472B6" />
+      <circle cx="-5" cy="-1" r="4.5" fill="#F472B6" />
+      <circle cx="0" cy="0" r="2.5" fill="#9D174D" />
+    </g>
+    <g transform="translate(56, 70)">
+      <circle cx="0" cy="-5" r="4.5" fill="#EC4899" />
+      <circle cx="5" cy="-1" r="4.5" fill="#EC4899" />
+      <circle cx="3" cy="5" r="4.5" fill="#EC4899" />
+      <circle cx="-3" cy="5" r="4.5" fill="#EC4899" />
+      <circle cx="-5" cy="-1" r="4.5" fill="#EC4899" />
+      <circle cx="0" cy="0" r="2.5" fill="#831843" />
+    </g>
+    <g transform="translate(162, 60)">
+      <circle cx="0" cy="-5" r="5" fill="#F472B6" />
+      <circle cx="5" cy="-1" r="5" fill="#F472B6" />
+      <circle cx="3" cy="5" r="5" fill="#F472B6" />
+      <circle cx="-3" cy="5" r="5" fill="#F472B6" />
+      <circle cx="-5" cy="-1" r="5" fill="#F472B6" />
+      <circle cx="0" cy="0" r="2.5" fill="#9D174D" />
+    </g>
+  </g>
+
+  <!-- Quote Block with Red Quotation Marks -->
+  <text x="660" y="504" fill="#C62821" fontFamily="Georgia, serif" fontWeight="900" fontSize="48">“</text>
+  <g fill="#231F20" fontFamily="'Kanit', sans-serif" fontSize="8.4">
+    <text x="698" y="482">Thầy Calum Leatham cũng từng đón Tết tại Việt Nam 3 lần với gia đình vợ: <tspan fontStyle="italic" fontWeight="600">“Tết là chuỗi ngày được ở bên</tspan></text>
+    <text x="698" y="493"><tspan fontStyle="italic" fontWeight="600">gia đình rất thoải mái và nó khiến thầy nhớ đến lễ Giáng sinh ở Anh”.</tspan> Bản thân là một người ngoại quốc, thầy</text>
+    <text x="660" y="504">từng cảm thấy lo ngại sẽ trở thành tâm điểm chú ý của họ hàng khi về quê: <tspan fontStyle="italic" fontWeight="600">“Thầy là người phương Tây duy nhất</tspan></text>
+    <text x="660" y="515"><tspan fontStyle="italic" fontWeight="600">trong làng nên khi đến thăm mọi người, họ thường nhìn thầy với ánh mắt tò mò”.</tspan> Song, nỗi lo ấy đã được xua tan bởi</text>
+    <text x="660" y="526">sự tiếp đón nồng hậu và nhiệt tình từ bà con hàng xóm. Họ tiếp đãi thầy chu đáo và mời thầy những thức quà đặc</text>
+    <text x="660" y="537">trưng của Tết Việt. Thầy cũng cho biết ở Anh không có “Tết âm”. Dù trước đây từng có cơ hội chứng kiến cộng đồng</text>
+    <text x="660" y="548">những người châu Á ở Anh tổ chức buổi tiệc mừng ngày lễ này, nhưng, chỉ đến khi qua Việt Nam, gặp được vợ mình,</text>
+    <text x="660" y="559">thầy mới biết đó là “Tết Nguyên Đán”.</text>
+  </g>
+
+  <!-- Bottom-Left Blue Street Signs: PHỐ TẾT TA / PHỐ TẾT TÂY -->
+  <g transform="translate(675, 596)">
+    <!-- Signpost Pole -->
+    <rect x="92" y="0" width="12" height="184" fill="#FFFFFF" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="92" y="2" width="12" height="40" fill="#C62821" />
+    <rect x="92" y="76" width="12" height="40" fill="#C62821" />
+    <!-- Left Sign: PHỐ TẾT TA -->
+    <rect x="0" y="2" width="92" height="64" rx="4" fill="#1D4E9E" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="5" y="7" width="82" height="54" rx="2" fill="none" stroke="#FFFFFF" strokeWidth="1.5" />
+    <text x="46" y="28" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="13">PHỐ</text>
+    <text x="46" y="49" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="18">TẾT TA</text>
+    <!-- Right Sign: PHỐ TẾT TÂY -->
+    <rect x="104" y="44" width="94" height="64" rx="4" fill="#1D4E9E" stroke="#2B1810" strokeWidth="1.8" />
+    <rect x="109" y="49" width="84" height="54" rx="2" fill="none" stroke="#FFFFFF" strokeWidth="1.5" />
+    <text x="151" y="70" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="13">PHỐ</text>
+    <text x="151" y="91" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="17">TẾT TÂY</text>
+  </g>
+
+  <!-- Bottom-Right Bulletin Board: BẢNG TIN -->
+  <g transform="translate(920, 572)">
+    <!-- Orange Top Sign -->
+    <rect x="74" y="0" width="94" height="34" fill="#F38B20" stroke="#2B1810" strokeWidth="1.6" />
+    <rect x="77" y="3" width="88" height="28" fill="none" stroke="#FDE68A" strokeWidth="1" />
+    <text x="121" y="23" textAnchor="middle" fill="#C62821" fontFamily="'Kanit', sans-serif" fontWeight="900" fontSize="16">
+      BẢNG TIN
+    </text>
+    <!-- Board Frame -->
+    <rect x="0" y="36" width="242" height="128" fill="#F8F1CE" stroke="#2B1810" strokeWidth="1.6" />
+    <rect x="7" y="43" width="228" height="114" fill="#A93827" stroke="#2B1810" strokeWidth="1.4" />
+    <!-- Open Mini Magazine Spread inside Board -->
+    <rect x="18" y="60" width="62" height="84" fill="#FFFDF4" stroke="#2B1810" strokeWidth="1" />
+    <rect x="80" y="60" width="62" height="84" fill="#FFFDF4" stroke="#2B1810" strokeWidth="1" />
+    <!-- Mini Left Page Details -->
+    <text x="30" y="74" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="5.5">MỪNG</text>
+    <text x="30" y="81" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="5.5">ĐẢNG</text>
+    <text x="30" y="88" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="5.5">MỪNG</text>
+    <text x="30" y="95" fill="#111111" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="5.5">XUÂN</text>
+    <rect x="48" y="68" width="28" height="20" fill="#D62828" />
+    <polygon points="62,73 63,77 67,77 64,79 65,83 62,80 59,83 60,79 57,77 61,77" fill="#FACC15" />
+    <rect x="26" y="102" width="32" height="34" fill="#4D7C0F" />
+    <circle cx="42" cy="118" r="10" fill="#DC2626" />
+    <!-- Mini Right Page Details -->
+    <rect x="88" y="68" width="46" height="32" fill="#7F1D1D" />
+    <circle cx="102" cy="84" r="6" fill="#F59E0B" />
+    <circle cx="118" cy="84" r="6" fill="#EF4444" />
+    <rect x="88" y="106" width="46" height="28" fill="#991B1B" />
+    <!-- Mini Poster 2: VIỆT NAM VÔ ĐỊCH -->
+    <rect x="172" y="64" width="44" height="54" fill="#FFFDF4" stroke="#2B1810" strokeWidth="1" />
+    <text x="194" y="81" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="7.5">VIỆT</text>
+    <text x="194" y="91" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="7.5">NAM</text>
+    <text x="194" y="101" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="7.5">VÔ</text>
+    <text x="194" y="111" textAnchor="middle" fill="#141414" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="7.5">ĐỊCH</text>
+    <!-- Gold Star on Board Bottom-Right -->
+    <use href="#star5" x="210" y="144" fill="#F59E0B" transform="scale(1.2)" />
+  </g>
+
+  <!-- Page 5 Footer Badge -->
+  <rect x="1144" y="750" width="56" height="22" rx="10" fill="#0F0F0F" />
+  <text x="1160" y="765" textAnchor="middle" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="800" fontSize="12">5</text>
+  <text x="1177" y="762" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="7.5">Sức</text>
+  <text x="1177" y="769" fill="#FFFFFF" fontFamily="'Kanit', sans-serif" fontWeight="700" fontSize="7.5">trẻ</text>
+
+  <!-- Center Spine Shadow -->
+  <line x1="600" y1="0" x2="600" y2="780" stroke="#000000" strokeOpacity="0.22" strokeWidth="2.5" />
+</svg>
